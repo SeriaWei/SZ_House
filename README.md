@@ -13,10 +13,12 @@
 ## 数据结构
 
 数据存储在 `data/` 目录下：
-- `data/new_homes/` - 新房交易数据
-- `data/second_hand_homes/` - 二手房交易数据
+- `data/new_homes/` - 新房每日交易数据
+- `data/second_hand_homes/` - 二手房每日交易数据
+- `data/new_homes_month/` - 新房每月交易数据
+- `data/second_hand_homes_month/` - 二手房每月交易数据
 
-每个文件名格式为 `YYYY-MM-DD.json`，内容包含：
+每日数据文件名格式为 `YYYY-MM-DD.json`，每月数据文件名格式为 `YYYY-MM.json`，内容包含：
 - 交易面积 (dataMj)
 - 交易套数 (dataTs)
 

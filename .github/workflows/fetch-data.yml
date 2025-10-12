@@ -38,10 +38,12 @@ jobs:
         # 检查是否有文件更改
         if git status --porcelain | grep -qE 'data/'; then
           git add data/
-          git commit -m "Update real estate data for $(date +%Y-%m-%d)
+          git commit -m "Update real estate data [Daily automated update]
           
-          Automated data fetch from Shenzhen real estate API"
+          - Updated daily data: $(date +%Y-%m-%d)
+          - Updated monthly data: $(date +%Y-%m)"
           git push
+          echo "Changes committed and pushed"
         else
           echo "No changes to commit"
         fi

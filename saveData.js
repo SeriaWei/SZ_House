@@ -4,8 +4,8 @@ const path = require('path');
 /**
  * Saves the API response data to the appropriate directory
  * @param {Object} data - The API response data to save
- * @param {string} type - The type of data ('new_homes' or 'second_hand_homes')
- * @param {string} date - The date string for the filename (format: YYYY-MM-DD)
+ * @param {string} type - The type of data ('new_homes', 'second_hand_homes', 'new_homes_month', or 'second_hand_homes_month')
+ * @param {string} date - The date string for the filename (format: YYYY-MM-DD or YYYY-MM)
  */
 function saveDataToFile(data, type, date) {
   // Create a filename based on the date
@@ -17,8 +17,12 @@ function saveDataToFile(data, type, date) {
     directory = path.join('data', 'new_homes');
   } else if (type === 'second_hand_homes') {
     directory = path.join('data', 'second_hand_homes');
+  } else if (type === 'new_homes_month') {
+    directory = path.join('data', 'new_homes_month');
+  } else if (type === 'second_hand_homes_month') {
+    directory = path.join('data', 'second_hand_homes_month');
   } else {
-    throw new Error('Invalid type. Must be "new_homes" or "second_hand_homes"');
+    throw new Error('Invalid type. Must be "new_homes", "second_hand_homes", "new_homes_month", or "second_hand_homes_month"');
   }
   
   // Ensure the directory exists
