@@ -26,7 +26,7 @@ jobs:
       run: npm ci
 
     - name: Fetch real estate data
-      run: node index.js
+      run: npm start
 
     - name: Configure Git
       run: |
