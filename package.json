@@ -1,7 +1,7 @@
 {
   "name": "sz_house",
   "version": "1.0.0",
-  "description": "",
+  "description": "深圳房地产交易报表系统 - 获取和展示深圳市新房及二手房的交易数据",
   "license": "ISC",
   "author": "",
   "type": "commonjs",
@@ -10,6 +10,8 @@
     "doc": "doc"
   },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "dependencies": {}
 }
