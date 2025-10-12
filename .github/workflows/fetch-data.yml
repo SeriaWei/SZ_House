@@ -1,0 +1,49 @@
+name: Fetch Real Estate Data Daily
+
+on:
+  schedule:
+    # 每天北京时间上午9点运行 (UTC时间1点)
+    - cron: '0 1 * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Fetch real estate data
+      run: node index.js
+
+    - name: Configure Git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+    - name: Commit and push changes
+      run: |
+        # 检查是否有文件更改
+        if git status --porcelain | grep -qE 'data/'; then
+          git add data/
+          git commit -m "Update real estate data for $(date +%Y-%m-%d)
+          
+          Automated data fetch from Shenzhen real estate API"
+          git push
+          echo "Changes committed and pushed"
+        else
+          echo "No changes to commit"
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
