@@ -10,11 +10,12 @@ jobs:
   fetch-data:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -41,9 +42,6 @@ jobs:
           
           Automated data fetch from Shenzhen real estate API"
           git push
-          echo "Changes committed and pushed"
         else
           echo "No changes to commit"
         fi
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
