@@ -1,4 +1,5 @@
 const https = require('https');
+const { addTotalStatistics } = require('./dataProcessor');
 
 /**
  * Fetches the previous day's second-hand home transaction data by district
@@ -26,7 +27,9 @@ async function getSecondHandHomesData() {
       res.on('end', () => {
         try {
           const response = JSON.parse(data);
-          resolve(response);
+          // Add total statistics before resolving
+          const responseWithTotals = addTotalStatistics(response);
+          resolve(responseWithTotals);
         } catch (error) {
           reject(error);
         }
