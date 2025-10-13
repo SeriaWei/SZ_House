@@ -58,4 +58,6 @@ prompt = """
 - xmlDateDay: 报表日期（中文）
 - dataMj: 区域成交面积数组，元素 { name: 区名, value: 面积（平方米） }
 - dataTs: 区域成交套数数组，元素 { name: 区名, value: 套数 }
+- dataTotalMj: 总成交面积
+- dataTotalTs: 总成交套数
 """
