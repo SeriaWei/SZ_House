@@ -5,6 +5,27 @@ const { getSecondHandHomesMonthData } = require('./getSecondHandHomesMonthData')
 const { saveDataToFile } = require('./saveData');
 
 /**
+ * Format date string to ensure month and day are zero-padded
+ * @param {string} dateStr - Date string like "2025年9月12日" or "2025年9月"
+ * @returns {string} - Formatted date string like "2025-09-12" or "2025-09"
+ */
+function formatDateString(dateStr) {
+  return dateStr
+    .replace(/年/g, '-')
+    .replace(/月/g, '-')
+    .replace(/日/g, '')
+    .replace(/-$/, '')
+    .replace(/(\d+)-(\d+)(?:-(\d+))?/, (match, year, month, day) => {
+      const formattedMonth = month.padStart(2, '0');
+      if (day) {
+        const formattedDay = day.padStart(2, '0');
+        return `${year}-${formattedMonth}-${formattedDay}`;
+      }
+      return `${year}-${formattedMonth}`;
+    });
+}
+
+/**
  * Main function to fetch and save real estate data
  */
 async function fetchAndSaveRealEstateData() {
@@ -15,7 +36,7 @@ async function fetchAndSaveRealEstateData() {
     
     if (secondHandHomesResponse.status === 1) {
       // Extract the date from the response
-      const dateStr = secondHandHomesResponse.data.xmlDateDay.replace(/[年月日]/g, '-').replace(/-$/, '');
+      const dateStr = formatDateString(secondHandHomesResponse.data.xmlDateDay);
       saveDataToFile(secondHandHomesResponse, 'second_hand_homes', dateStr);
     } else {
       console.error('Error fetching previous day second-hand homes data:', secondHandHomesResponse.msg);
@@ -26,7 +47,7 @@ async function fetchAndSaveRealEstateData() {
     
     if (newHomesResponse.status === 1) {
       // Extract the date from the response
-      const dateStr = newHomesResponse.data.xmlDateDay.replace(/[年月日]/g, '-').replace(/-$/, '');
+      const dateStr = formatDateString(newHomesResponse.data.xmlDateDay);
       saveDataToFile(newHomesResponse, 'new_homes', dateStr);
     } else {
       console.error('Error fetching previous day new homes data:', newHomesResponse.msg);
@@ -38,7 +59,7 @@ async function fetchAndSaveRealEstateData() {
     
     if (secondHandHomesMonthResponse.status === 1) {
       // Extract the month from the response
-      const monthStr = secondHandHomesMonthResponse.data.xmlDateMonth.replace(/[年月]/g, '-').replace(/-$/, '');
+      const monthStr = formatDateString(secondHandHomesMonthResponse.data.xmlDateMonth);
       saveDataToFile(secondHandHomesMonthResponse, 'second_hand_homes_month', monthStr);
     } else {
       console.error('Error fetching previous month second-hand homes data:', secondHandHomesMonthResponse.msg);
@@ -49,7 +70,7 @@ async function fetchAndSaveRealEstateData() {
     
     if (newHomesMonthResponse.status === 1) {
       // Extract the month from the response
-      const monthStr = newHomesMonthResponse.data.xmlDateMonth.replace(/[年月]/g, '-').replace(/-$/, '');
+      const monthStr = formatDateString(newHomesMonthResponse.data.xmlDateMonth);
       saveDataToFile(newHomesMonthResponse, 'new_homes_month', monthStr);
     } else {
       console.error('Error fetching previous month new homes data:', newHomesMonthResponse.msg);

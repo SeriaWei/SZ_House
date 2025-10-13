@@ -11,6 +11,8 @@
   },
   "scripts": {
     "start": "node src/index.js",
+    "fix": "node src/processExistingData.js",
+    "summary": "node src/showDataSummary.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {}

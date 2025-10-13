@@ -4,7 +4,7 @@
   "data": {
     "result": null,
     "xmlDateMonth": "2025年9月",
-    "xmlDateDay": "2025年10月11日",
+    "xmlDateDay": "2025年10月12日",
     "dataMj": [
       {
         "name": "南山",
@@ -96,6 +96,8 @@
         "name": "深汕",
         "value": 0
       }
-    ]
+    ],
+    "dataTotalMj": 533908.83,
+    "dataTotalTs": 5663
   }
 }
