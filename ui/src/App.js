@@ -4,8 +4,8 @@ import TrendChart from './TrendChart';
 import trendingData from './trendingData.json';
 
 // Prepare the data by adding a 'month' property to each data point
-const allMonths = Object.keys(trendingData).sort().reverse(); // For dropdown selection (newest first)
-const chartData = Object.keys(trendingData).sort().map(month => ({  // For chart display (oldest to newest)
+const allMonths = Object.keys(trendingData).sort();
+const chartData = allMonths.map(month => ({
   month,
   ...trendingData[month]
 }));
@@ -19,8 +19,8 @@ function App() {
   });
 
   const [dateRange, setDateRange] = useState({
-    start: allMonths[Math.min(allMonths.length - 1, 6)],
-    end: allMonths[0]
+    start: allMonths[Math.max(0, allMonths.length - 6)],
+    end: allMonths[allMonths.length - 1]
   });
 
   const handleVisibilityChange = (e) => {
@@ -34,13 +34,9 @@ function App() {
   };
 
   const filteredData = useMemo(() => {
-    // Find indices in the original sorted data (oldest to newest)
-    const originalMonths = Object.keys(trendingData).sort();
-    const startIndex = originalMonths.indexOf(dateRange.start);
-    const endIndex = originalMonths.indexOf(dateRange.end);
-    const actualStartIndex = Math.min(startIndex, endIndex);
-    const actualEndIndex = Math.max(startIndex, endIndex);
-    return chartData.slice(actualStartIndex, actualEndIndex + 1);
+    const startIndex = allMonths.indexOf(dateRange.start);
+    const endIndex = allMonths.indexOf(dateRange.end);
+    return chartData.slice(startIndex, endIndex + 1);
   }, [dateRange]);
 
   const datasetConfig = {
@@ -76,13 +72,13 @@ function App() {
             <label>
               开始月份:
               <select name="start" value={dateRange.start} onChange={handleDateChange}>
-                {allMonths.map(month => <option key={month} value={month}>{month}</option>)}
+                {allMonths.slice().reverse().map(month => <option key={month} value={month}>{month}</option>)}
               </select>
             </label>
             <label>
               结束月份:
               <select name="end" value={dateRange.end} onChange={handleDateChange}>
-                {allMonths.map(month => <option key={month} value={month}>{month}</option>)}
+                {allMonths.slice().reverse().map(month => <option key={month} value={month}>{month}</option>)}
               </select>
             </label>
           </fieldset>

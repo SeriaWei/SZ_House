@@ -42,6 +42,9 @@ main {
   font-weight: bold;
   padding: 0 10px;
   color: #555;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #ccc;
 }
 
 .controls label {
@@ -66,7 +69,8 @@ main {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  height: 60vh; /* Give the chart container a flexible height */
+  height: 60vh;
+  /* Give the chart container a flexible height */
   max-width: 1200px;
   margin: 0 auto;
 }
