@@ -1,4 +1,592 @@
 {
+  "2007-11": {
+    "ysfDealArea": 102064.33,
+    "ysfTotalTs": 1129,
+    "esfDealArea": 261822.09,
+    "esfTotalTs": 2378
+  },
+  "2007-12": {
+    "ysfDealArea": 224043.33,
+    "ysfTotalTs": 2357,
+    "esfDealArea": 475132.31,
+    "esfTotalTs": 3352
+  },
+  "2008-01": {
+    "ysfDealArea": 204072.59,
+    "ysfTotalTs": 2217,
+    "esfDealArea": 291959.6,
+    "esfTotalTs": 3017
+  },
+  "2008-02": {
+    "ysfDealArea": 72912.89,
+    "ysfTotalTs": 781,
+    "esfDealArea": 140712.09,
+    "esfTotalTs": 1464
+  },
+  "2008-03": {
+    "ysfDealArea": 334451.05,
+    "ysfTotalTs": 3457,
+    "esfDealArea": 344173.64,
+    "esfTotalTs": 3211
+  },
+  "2008-04": {
+    "ysfDealArea": 259884.71,
+    "ysfTotalTs": 3124,
+    "esfDealArea": 384231.33,
+    "esfTotalTs": 4334
+  },
+  "2008-05": {
+    "ysfDealArea": 405954.93,
+    "ysfTotalTs": 4732,
+    "esfDealArea": 478293.66,
+    "esfTotalTs": 4142
+  },
+  "2008-06": {
+    "ysfDealArea": 283033.29,
+    "ysfTotalTs": 2905,
+    "esfDealArea": 413156.86,
+    "esfTotalTs": 4035
+  },
+  "2008-07": {
+    "ysfDealArea": 248013.32,
+    "ysfTotalTs": 2615,
+    "esfDealArea": 501657.27,
+    "esfTotalTs": 4188
+  },
+  "2008-08": {
+    "ysfDealArea": 310159.57,
+    "ysfTotalTs": 3380,
+    "esfDealArea": 378889.03,
+    "esfTotalTs": 3452
+  },
+  "2008-09": {
+    "ysfDealArea": 308969.62,
+    "ysfTotalTs": 3276,
+    "esfDealArea": 365367.85,
+    "esfTotalTs": 3442
+  },
+  "2008-10": {
+    "ysfDealArea": 338447.28,
+    "ysfTotalTs": 3483,
+    "esfDealArea": 300530.49,
+    "esfTotalTs": 2751
+  },
+  "2008-11": {
+    "ysfDealArea": 591381.58,
+    "ysfTotalTs": 6433,
+    "esfDealArea": 415950.3,
+    "esfTotalTs": 4021
+  },
+  "2008-12": {
+    "ysfDealArea": 728749.04,
+    "ysfTotalTs": 7898,
+    "esfDealArea": 523557.89,
+    "esfTotalTs": 4843
+  },
+  "2009-01": {
+    "ysfDealArea": 391890.07,
+    "ysfTotalTs": 4445,
+    "esfDealArea": 424541.28,
+    "esfTotalTs": 4724
+  },
+  "2009-02": {
+    "ysfDealArea": 488414.73,
+    "ysfTotalTs": 5275,
+    "esfDealArea": 474085.51,
+    "esfTotalTs": 5380
+  },
+  "2009-03": {
+    "ysfDealArea": 810136.45,
+    "ysfTotalTs": 8509,
+    "esfDealArea": 997246.67,
+    "esfTotalTs": 11049
+  },
+  "2009-04": {
+    "ysfDealArea": 745800.57,
+    "ysfTotalTs": 7694,
+    "esfDealArea": 1198395.2,
+    "esfTotalTs": 13477
+  },
+  "2009-05": {
+    "ysfDealArea": 775925.11,
+    "ysfTotalTs": 8479,
+    "esfDealArea": 1025186.21,
+    "esfTotalTs": 11630
+  },
+  "2009-06": {
+    "ysfDealArea": 664119.1,
+    "ysfTotalTs": 6982,
+    "esfDealArea": 1319780.57,
+    "esfTotalTs": 14387
+  },
+  "2009-07": {
+    "ysfDealArea": 548344.73,
+    "ysfTotalTs": 5501,
+    "esfDealArea": 1411904.79,
+    "esfTotalTs": 15826
+  },
+  "2009-08": {
+    "ysfDealArea": 385964.1,
+    "ysfTotalTs": 4114,
+    "esfDealArea": 1115749.09,
+    "esfTotalTs": 12444
+  },
+  "2009-09": {
+    "ysfDealArea": 333529.58,
+    "ysfTotalTs": 3252,
+    "esfDealArea": 1164641.34,
+    "esfTotalTs": 12944
+  },
+  "2009-10": {
+    "ysfDealArea": 496896.62,
+    "ysfTotalTs": 5977,
+    "esfDealArea": 914305.98,
+    "esfTotalTs": 10379
+  },
+  "2009-11": {
+    "ysfDealArea": 468058.1,
+    "ysfTotalTs": 5487,
+    "esfDealArea": 1482719.66,
+    "esfTotalTs": 16666
+  },
+  "2009-12": {
+    "ysfDealArea": 384884.81,
+    "ysfTotalTs": 4359,
+    "esfDealArea": 2454975.42,
+    "esfTotalTs": 27887
+  },
+  "2010-01": {
+    "ysfDealArea": 358396.72,
+    "ysfTotalTs": 3903,
+    "esfDealArea": 833310.73,
+    "esfTotalTs": 9317
+  },
+  "2010-02": {
+    "ysfDealArea": 91217.25,
+    "ysfTotalTs": 1078,
+    "esfDealArea": 480565.9,
+    "esfTotalTs": 5039
+  },
+  "2010-03": {
+    "ysfDealArea": 261316.89,
+    "ysfTotalTs": 3002,
+    "esfDealArea": 991388.42,
+    "esfTotalTs": 10404
+  },
+  "2010-04": {
+    "ysfDealArea": 291263.16,
+    "ysfTotalTs": 3227,
+    "esfDealArea": 1290590.51,
+    "esfTotalTs": 14740
+  },
+  "2010-05": {
+    "ysfDealArea": 114386.08,
+    "ysfTotalTs": 1386,
+    "esfDealArea": 1073769.8,
+    "esfTotalTs": 12264
+  },
+  "2010-06": {
+    "ysfDealArea": 152462.69,
+    "ysfTotalTs": 1888,
+    "esfDealArea": 791988.3,
+    "esfTotalTs": 7606
+  },
+  "2010-07": {
+    "ysfDealArea": 142237.21,
+    "ysfTotalTs": 1681,
+    "esfDealArea": 779865.01,
+    "esfTotalTs": 8658
+  },
+  "2010-08": {
+    "ysfDealArea": 260875.33,
+    "ysfTotalTs": 2971,
+    "esfDealArea": 1238297.13,
+    "esfTotalTs": 13278
+  },
+  "2010-09": {
+    "ysfDealArea": 463668.13,
+    "ysfTotalTs": 5422,
+    "esfDealArea": 1019990.69,
+    "esfTotalTs": 11010
+  },
+  "2010-10": {
+    "ysfDealArea": 456817.7,
+    "ysfTotalTs": 4947,
+    "esfDealArea": 984864.68,
+    "esfTotalTs": 10627
+  },
+  "2010-11": {
+    "ysfDealArea": 233174.34,
+    "ysfTotalTs": 2521,
+    "esfDealArea": 799874.94,
+    "esfTotalTs": 8922
+  },
+  "2010-12": {
+    "ysfDealArea": 383901.48,
+    "ysfTotalTs": 4703,
+    "esfDealArea": 1021774.47,
+    "esfTotalTs": 11072
+  },
+  "2011-01": {
+    "ysfDealArea": 346215.58,
+    "ysfTotalTs": 4140,
+    "esfDealArea": 990555.17,
+    "esfTotalTs": 10831
+  },
+  "2011-02": {
+    "ysfDealArea": 152441.03,
+    "ysfTotalTs": 1808,
+    "esfDealArea": 368649.52,
+    "esfTotalTs": 3837
+  },
+  "2011-03": {
+    "ysfDealArea": 229474.9,
+    "ysfTotalTs": 2683,
+    "esfDealArea": 967654.32,
+    "esfTotalTs": 10613
+  },
+  "2011-04": {
+    "ysfDealArea": 163677.63,
+    "ysfTotalTs": 1904,
+    "esfDealArea": 782955.04,
+    "esfTotalTs": 8382
+  },
+  "2011-05": {
+    "ysfDealArea": 247715.83,
+    "ysfTotalTs": 2949,
+    "esfDealArea": 812212.75,
+    "esfTotalTs": 8337
+  },
+  "2011-06": {
+    "ysfDealArea": 268427.51,
+    "ysfTotalTs": 3066,
+    "esfDealArea": 1070780.06,
+    "esfTotalTs": 10833
+  },
+  "2011-07": {
+    "ysfDealArea": 339525.07,
+    "ysfTotalTs": 3858,
+    "esfDealArea": 662674.15,
+    "esfTotalTs": 6544
+  },
+  "2011-08": {
+    "ysfDealArea": 205266.9,
+    "ysfTotalTs": 2521,
+    "esfDealArea": 256910.23,
+    "esfTotalTs": 2384
+  },
+  "2011-09": {
+    "ysfDealArea": 163196.74,
+    "ysfTotalTs": 2016,
+    "esfDealArea": 312104.94,
+    "esfTotalTs": 3449
+  },
+  "2011-10": {
+    "ysfDealArea": 184360.21,
+    "ysfTotalTs": 2219,
+    "esfDealArea": 271176.81,
+    "esfTotalTs": 2897
+  },
+  "2011-11": {
+    "ysfDealArea": 147230.46,
+    "ysfTotalTs": 1695,
+    "esfDealArea": 318157.89,
+    "esfTotalTs": 3027
+  },
+  "2011-12": {
+    "ysfDealArea": 284506.67,
+    "ysfTotalTs": 3163,
+    "esfDealArea": 318592.15,
+    "esfTotalTs": 2629
+  },
+  "2012-01": {
+    "ysfDealArea": 122263.23,
+    "ysfTotalTs": 1383,
+    "esfDealArea": 138638.95,
+    "esfTotalTs": 1402
+  },
+  "2012-02": {
+    "ysfDealArea": 172176.74,
+    "ysfTotalTs": 1948,
+    "esfDealArea": 172418.64,
+    "esfTotalTs": 1851
+  },
+  "2012-03": {
+    "ysfDealArea": 302271.38,
+    "ysfTotalTs": 3449,
+    "esfDealArea": 419706.28,
+    "esfTotalTs": 4366
+  },
+  "2012-04": {
+    "ysfDealArea": 257223.08,
+    "ysfTotalTs": 2889,
+    "esfDealArea": 392802.71,
+    "esfTotalTs": 4602
+  },
+  "2012-05": {
+    "ysfDealArea": 355251.78,
+    "ysfTotalTs": 4084,
+    "esfDealArea": 530835.59,
+    "esfTotalTs": 5662
+  },
+  "2012-06": {
+    "ysfDealArea": 373824.43,
+    "ysfTotalTs": 4189,
+    "esfDealArea": 546934.1,
+    "esfTotalTs": 5832
+  },
+  "2012-07": {
+    "ysfDealArea": 299573.79,
+    "ysfTotalTs": 3296,
+    "esfDealArea": 622367.45,
+    "esfTotalTs": 7076
+  },
+  "2012-08": {
+    "ysfDealArea": 373875.02,
+    "ysfTotalTs": 3827,
+    "esfDealArea": 720643.26,
+    "esfTotalTs": 7750
+  },
+  "2012-09": {
+    "ysfDealArea": 247497.66,
+    "ysfTotalTs": 2627,
+    "esfDealArea": 932612.02,
+    "esfTotalTs": 8520
+  },
+  "2012-10": {
+    "ysfDealArea": 330860.93,
+    "ysfTotalTs": 3646,
+    "esfDealArea": 401708.17,
+    "esfTotalTs": 4863
+  },
+  "2012-11": {
+    "ysfDealArea": 416618.15,
+    "ysfTotalTs": 4352,
+    "esfDealArea": 588054.53,
+    "esfTotalTs": 6859
+  },
+  "2012-12": {
+    "ysfDealArea": 431278.38,
+    "ysfTotalTs": 4649,
+    "esfDealArea": 587970.4,
+    "esfTotalTs": 7016
+  },
+  "2013-01": {
+    "ysfDealArea": 570414.33,
+    "ysfTotalTs": 6324,
+    "esfDealArea": 751731,
+    "esfTotalTs": 8530
+  },
+  "2013-02": {
+    "ysfDealArea": 147714.71,
+    "ysfTotalTs": 1642,
+    "esfDealArea": 327795.96,
+    "esfTotalTs": 3840
+  },
+  "2013-03": {
+    "ysfDealArea": 362018.9,
+    "ysfTotalTs": 3967,
+    "esfDealArea": 1574108.43,
+    "esfTotalTs": 18373
+  },
+  "2013-04": {
+    "ysfDealArea": 356831.25,
+    "ysfTotalTs": 3940,
+    "esfDealArea": 515538.82,
+    "esfTotalTs": 6121
+  },
+  "2013-05": {
+    "ysfDealArea": 460002.5,
+    "ysfTotalTs": 4999,
+    "esfDealArea": 637088.56,
+    "esfTotalTs": 7178
+  },
+  "2013-06": {
+    "ysfDealArea": 475095.51,
+    "ysfTotalTs": 5091,
+    "esfDealArea": 610027.2,
+    "esfTotalTs": 6933
+  },
+  "2013-07": {
+    "ysfDealArea": 329883.68,
+    "ysfTotalTs": 3472,
+    "esfDealArea": 760574.02,
+    "esfTotalTs": 8336
+  },
+  "2013-08": {
+    "ysfDealArea": 327967.25,
+    "ysfTotalTs": 3419,
+    "esfDealArea": 694690.67,
+    "esfTotalTs": 7539
+  },
+  "2013-09": {
+    "ysfDealArea": 303738.18,
+    "ysfTotalTs": 3169,
+    "esfDealArea": 827525.81,
+    "esfTotalTs": 8269
+  },
+  "2013-10": {
+    "ysfDealArea": 330235,
+    "ysfTotalTs": 3654,
+    "esfDealArea": 595235.95,
+    "esfTotalTs": 6767
+  },
+  "2013-11": {
+    "ysfDealArea": 459758.86,
+    "ysfTotalTs": 4830,
+    "esfDealArea": 616587.71,
+    "esfTotalTs": 7057
+  },
+  "2013-12": {
+    "ysfDealArea": 306412.41,
+    "ysfTotalTs": 3426,
+    "esfDealArea": 648142.28,
+    "esfTotalTs": 6581
+  },
+  "2014-01": {
+    "ysfDealArea": 175372.83,
+    "ysfTotalTs": 1880,
+    "esfDealArea": 494129.05,
+    "esfTotalTs": 5338
+  },
+  "2014-02": {
+    "ysfDealArea": 237228.63,
+    "ysfTotalTs": 2534,
+    "esfDealArea": 279687.47,
+    "esfTotalTs": 3293
+  },
+  "2014-03": {
+    "ysfDealArea": 262704.92,
+    "ysfTotalTs": 2849,
+    "esfDealArea": 466423.93,
+    "esfTotalTs": 5470
+  },
+  "2014-04": {
+    "ysfDealArea": 280005.45,
+    "ysfTotalTs": 2947,
+    "esfDealArea": 541776.62,
+    "esfTotalTs": 6027
+  },
+  "2014-05": {
+    "ysfDealArea": 242223.03,
+    "ysfTotalTs": 2548,
+    "esfDealArea": 500679.22,
+    "esfTotalTs": 5531
+  },
+  "2014-06": {
+    "ysfDealArea": 233243.56,
+    "ysfTotalTs": 2428,
+    "esfDealArea": 426744.76,
+    "esfTotalTs": 5084
+  },
+  "2014-07": {
+    "ysfDealArea": 226919.19,
+    "ysfTotalTs": 2429,
+    "esfDealArea": 502466,
+    "esfTotalTs": 5167
+  },
+  "2014-08": {
+    "ysfDealArea": 277831.21,
+    "ysfTotalTs": 2893,
+    "esfDealArea": 445873.28,
+    "esfTotalTs": 4978
+  },
+  "2014-09": {
+    "ysfDealArea": 294110.89,
+    "ysfTotalTs": 3118,
+    "esfDealArea": 418844.18,
+    "esfTotalTs": 4432
+  },
+  "2014-10": {
+    "ysfDealArea": 448664.96,
+    "ysfTotalTs": 4787,
+    "esfDealArea": 426644.96,
+    "esfTotalTs": 4525
+  },
+  "2014-11": {
+    "ysfDealArea": 575085.89,
+    "ysfTotalTs": 5791,
+    "esfDealArea": 616075.05,
+    "esfTotalTs": 7088
+  },
+  "2014-12": {
+    "ysfDealArea": 787674.97,
+    "ysfTotalTs": 7767,
+    "esfDealArea": 837958.94,
+    "esfTotalTs": 9792
+  },
+  "2015-01": {
+    "ysfDealArea": 702515,
+    "ysfTotalTs": 7296,
+    "esfDealArea": 914945.73,
+    "esfTotalTs": 9768
+  },
+  "2015-02": {
+    "ysfDealArea": 196612.35,
+    "ysfTotalTs": 1985,
+    "esfDealArea": 527190.28,
+    "esfTotalTs": 5728
+  },
+  "2015-03": {
+    "ysfDealArea": 465714.2,
+    "ysfTotalTs": 4857,
+    "esfDealArea": 650550.47,
+    "esfTotalTs": 7588
+  },
+  "2015-04": {
+    "ysfDealArea": 405754.01,
+    "ysfTotalTs": 4076,
+    "esfDealArea": 946375.66,
+    "esfTotalTs": 11201
+  },
+  "2015-05": {
+    "ysfDealArea": 608693.99,
+    "ysfTotalTs": 6111,
+    "esfDealArea": 1226515.89,
+    "esfTotalTs": 14298
+  },
+  "2015-06": {
+    "ysfDealArea": 769747.16,
+    "ysfTotalTs": 7503,
+    "esfDealArea": 1415069.84,
+    "esfTotalTs": 16790
+  },
+  "2015-07": {
+    "ysfDealArea": 674855.81,
+    "ysfTotalTs": 6420,
+    "esfDealArea": 1514336.55,
+    "esfTotalTs": 17640
+  },
+  "2015-08": {
+    "ysfDealArea": 577871.44,
+    "ysfTotalTs": 5647,
+    "esfDealArea": 1096831.95,
+    "esfTotalTs": 12509
+  },
+  "2015-09": {
+    "ysfDealArea": 409413.73,
+    "ysfTotalTs": 4063,
+    "esfDealArea": 1105347.13,
+    "esfTotalTs": 12074
+  },
+  "2015-10": {
+    "ysfDealArea": 542458.79,
+    "ysfTotalTs": 5589,
+    "esfDealArea": 631860.88,
+    "esfTotalTs": 7610
+  },
+  "2015-11": {
+    "ysfDealArea": 584140.7,
+    "ysfTotalTs": 5669,
+    "esfDealArea": 949254.87,
+    "esfTotalTs": 10737
+  },
+  "2015-12": {
+    "ysfDealArea": 727148.11,
+    "ysfTotalTs": 7289,
+    "esfDealArea": 1209004.59,
+    "esfTotalTs": 13950
+  },
   "2016-01": {
     "ysfDealArea": 563151.99,
     "ysfTotalTs": 5450,
