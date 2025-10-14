@@ -1,0 +1,704 @@
+{
+  "2016-01": {
+    "ysfDealArea": 563151.99,
+    "ysfTotalTs": 5450,
+    "esfDealArea": 1424191.37,
+    "esfTotalTs": 16476
+  },
+  "2016-02": {
+    "ysfDealArea": 556876.64,
+    "ysfTotalTs": 5410,
+    "esfDealArea": 845998.34,
+    "esfTotalTs": 9075
+  },
+  "2016-03": {
+    "ysfDealArea": 465482.82,
+    "ysfTotalTs": 4469,
+    "esfDealArea": 1868099.64,
+    "esfTotalTs": 20453
+  },
+  "2016-04": {
+    "ysfDealArea": 253144.8,
+    "ysfTotalTs": 2343,
+    "esfDealArea": 797533.94,
+    "esfTotalTs": 9475
+  },
+  "2016-05": {
+    "ysfDealArea": 246083.32,
+    "ysfTotalTs": 2262,
+    "esfDealArea": 442995.27,
+    "esfTotalTs": 5081
+  },
+  "2016-06": {
+    "ysfDealArea": 346692.36,
+    "ysfTotalTs": 3255,
+    "esfDealArea": 489290.13,
+    "esfTotalTs": 5410
+  },
+  "2016-07": {
+    "ysfDealArea": 309324.66,
+    "ysfTotalTs": 2987,
+    "esfDealArea": 566577.29,
+    "esfTotalTs": 6523
+  },
+  "2016-08": {
+    "ysfDealArea": 233150.02,
+    "ysfTotalTs": 2314,
+    "esfDealArea": 655605.03,
+    "esfTotalTs": 7907
+  },
+  "2016-09": {
+    "ysfDealArea": 278164.98,
+    "ysfTotalTs": 2622,
+    "esfDealArea": 705283.02,
+    "esfTotalTs": 8452
+  },
+  "2016-10": {
+    "ysfDealArea": 423093.71,
+    "ysfTotalTs": 4282,
+    "esfDealArea": 613361.79,
+    "esfTotalTs": 7091
+  },
+  "2016-11": {
+    "ysfDealArea": 289264.94,
+    "ysfTotalTs": 2923,
+    "esfDealArea": 595442.33,
+    "esfTotalTs": 6621
+  },
+  "2016-12": {
+    "ysfDealArea": 219121.1,
+    "ysfTotalTs": 2169,
+    "esfDealArea": 422321.19,
+    "esfTotalTs": 4729
+  },
+  "2017-01": {
+    "ysfDealArea": 174612.59,
+    "ysfTotalTs": 1656,
+    "esfDealArea": 391280.67,
+    "esfTotalTs": 3479
+  },
+  "2017-02": {
+    "ysfDealArea": 81850.72,
+    "ysfTotalTs": 804,
+    "esfDealArea": 236551.8,
+    "esfTotalTs": 2544
+  },
+  "2017-03": {
+    "ysfDealArea": 80479.3,
+    "ysfTotalTs": 805,
+    "esfDealArea": 476429.01,
+    "esfTotalTs": 5520
+  },
+  "2017-04": {
+    "ysfDealArea": 190268.47,
+    "ysfTotalTs": 1977,
+    "esfDealArea": 609900.18,
+    "esfTotalTs": 7051
+  },
+  "2017-05": {
+    "ysfDealArea": 235046.15,
+    "ysfTotalTs": 2319,
+    "esfDealArea": 598071.44,
+    "esfTotalTs": 6614
+  },
+  "2017-06": {
+    "ysfDealArea": 292748.67,
+    "ysfTotalTs": 2956,
+    "esfDealArea": 613426.93,
+    "esfTotalTs": 7080
+  },
+  "2017-07": {
+    "ysfDealArea": 203914.01,
+    "ysfTotalTs": 2026,
+    "esfDealArea": 545989.19,
+    "esfTotalTs": 6573
+  },
+  "2017-08": {
+    "ysfDealArea": 201400.04,
+    "ysfTotalTs": 1986,
+    "esfDealArea": 567807.67,
+    "esfTotalTs": 6797
+  },
+  "2017-09": {
+    "ysfDealArea": 273359.17,
+    "ysfTotalTs": 2733,
+    "esfDealArea": 585349.96,
+    "esfTotalTs": 7241
+  },
+  "2017-10": {
+    "ysfDealArea": 279051.69,
+    "ysfTotalTs": 2792,
+    "esfDealArea": 441791.29,
+    "esfTotalTs": 5573
+  },
+  "2017-11": {
+    "ysfDealArea": 254016.8,
+    "ysfTotalTs": 2548,
+    "esfDealArea": 554749.75,
+    "esfTotalTs": 6612
+  },
+  "2017-12": {
+    "ysfDealArea": 329940.98,
+    "ysfTotalTs": 3251,
+    "esfDealArea": 698202.24,
+    "esfTotalTs": 8537
+  },
+  "2018-01": {
+    "ysfDealArea": 281822.53,
+    "ysfTotalTs": 2782,
+    "esfDealArea": 625978.44,
+    "esfTotalTs": 7507
+  },
+  "2018-02": {
+    "ysfDealArea": 77721.98,
+    "ysfTotalTs": 794,
+    "esfDealArea": 345186.6,
+    "esfTotalTs": 3484
+  },
+  "2018-03": {
+    "ysfDealArea": 204348.58,
+    "ysfTotalTs": 2032,
+    "esfDealArea": 532638.73,
+    "esfTotalTs": 6460
+  },
+  "2018-04": {
+    "ysfDealArea": 187081.27,
+    "ysfTotalTs": 1934,
+    "esfDealArea": 552323.2,
+    "esfTotalTs": 6792
+  },
+  "2018-05": {
+    "ysfDealArea": 259351.44,
+    "ysfTotalTs": 2565,
+    "esfDealArea": 625320.65,
+    "esfTotalTs": 7803
+  },
+  "2018-06": {
+    "ysfDealArea": 279525.37,
+    "ysfTotalTs": 2709,
+    "esfDealArea": 613728.31,
+    "esfTotalTs": 7028
+  },
+  "2018-07": {
+    "ysfDealArea": 342447.29,
+    "ysfTotalTs": 3464,
+    "esfDealArea": 662792.88,
+    "esfTotalTs": 7954
+  },
+  "2018-08": {
+    "ysfDealArea": 354540.96,
+    "ysfTotalTs": 3694,
+    "esfDealArea": 657996,
+    "esfTotalTs": 8054
+  },
+  "2018-09": {
+    "ysfDealArea": 220371.08,
+    "ysfTotalTs": 2249,
+    "esfDealArea": 462486.6,
+    "esfTotalTs": 5588
+  },
+  "2018-10": {
+    "ysfDealArea": 178385.81,
+    "ysfTotalTs": 1837,
+    "esfDealArea": 363199.24,
+    "esfTotalTs": 4625
+  },
+  "2018-11": {
+    "ysfDealArea": 195305.4,
+    "ysfTotalTs": 1987,
+    "esfDealArea": 428636.77,
+    "esfTotalTs": 4962
+  },
+  "2018-12": {
+    "ysfDealArea": 345996.74,
+    "ysfTotalTs": 3376,
+    "esfDealArea": 385361.51,
+    "esfTotalTs": 4467
+  },
+  "2019-01": {
+    "ysfDealArea": 252276.67,
+    "ysfTotalTs": 2505,
+    "esfDealArea": 404045.43,
+    "esfTotalTs": 4587
+  },
+  "2019-02": {
+    "ysfDealArea": 127516.32,
+    "ysfTotalTs": 1279,
+    "esfDealArea": 187777.22,
+    "esfTotalTs": 2221
+  },
+  "2019-03": {
+    "ysfDealArea": 304732.69,
+    "ysfTotalTs": 3090,
+    "esfDealArea": 415160.87,
+    "esfTotalTs": 5105
+  },
+  "2019-04": {
+    "ysfDealArea": 257790.97,
+    "ysfTotalTs": 2707,
+    "esfDealArea": 682109.71,
+    "esfTotalTs": 8448
+  },
+  "2019-05": {
+    "ysfDealArea": 442062.82,
+    "ysfTotalTs": 4607,
+    "esfDealArea": 681890.12,
+    "esfTotalTs": 8187
+  },
+  "2019-06": {
+    "ysfDealArea": 337750.22,
+    "ysfTotalTs": 3511,
+    "esfDealArea": 533503.38,
+    "esfTotalTs": 6510
+  },
+  "2019-07": {
+    "ysfDealArea": 347985.47,
+    "ysfTotalTs": 3633,
+    "esfDealArea": 637420.53,
+    "esfTotalTs": 7526
+  },
+  "2019-08": {
+    "ysfDealArea": 287332.11,
+    "ysfTotalTs": 3040,
+    "esfDealArea": 612482.56,
+    "esfTotalTs": 7426
+  },
+  "2019-09": {
+    "ysfDealArea": 276387.83,
+    "ysfTotalTs": 2824,
+    "esfDealArea": 658804.4,
+    "esfTotalTs": 7939
+  },
+  "2019-10": {
+    "ysfDealArea": 267359.9,
+    "ysfTotalTs": 2660,
+    "esfDealArea": 641590.62,
+    "esfTotalTs": 7905
+  },
+  "2019-11": {
+    "ysfDealArea": 330055.13,
+    "ysfTotalTs": 3199,
+    "esfDealArea": 724884.93,
+    "esfTotalTs": 8787
+  },
+  "2019-12": {
+    "ysfDealArea": 496842.94,
+    "ysfTotalTs": 4867,
+    "esfDealArea": 902449.58,
+    "esfTotalTs": 10858
+  },
+  "2020-01": {
+    "ysfDealArea": 286418.39,
+    "ysfTotalTs": 2823,
+    "esfDealArea": 689079.1,
+    "esfTotalTs": 8090
+  },
+  "2020-02": {
+    "ysfDealArea": 85239.9,
+    "ysfTotalTs": 830,
+    "esfDealArea": 154936.24,
+    "esfTotalTs": 1778
+  },
+  "2020-03": {
+    "ysfDealArea": 324001.6,
+    "ysfTotalTs": 3154,
+    "esfDealArea": 729289.01,
+    "esfTotalTs": 8581
+  },
+  "2020-04": {
+    "ysfDealArea": 327505.08,
+    "ysfTotalTs": 3448,
+    "esfDealArea": 733004.78,
+    "esfTotalTs": 8484
+  },
+  "2020-05": {
+    "ysfDealArea": 301064.89,
+    "ysfTotalTs": 3143,
+    "esfDealArea": 769557.93,
+    "esfTotalTs": 9208
+  },
+  "2020-06": {
+    "ysfDealArea": 336504.28,
+    "ysfTotalTs": 3352,
+    "esfDealArea": 973370.32,
+    "esfTotalTs": 11415
+  },
+  "2020-07": {
+    "ysfDealArea": 348487.83,
+    "ysfTotalTs": 3479,
+    "esfDealArea": 1255800.15,
+    "esfTotalTs": 14309
+  },
+  "2020-08": {
+    "ysfDealArea": 408820.36,
+    "ysfTotalTs": 4076,
+    "esfDealArea": 1041889.31,
+    "esfTotalTs": 12122
+  },
+  "2020-09": {
+    "ysfDealArea": 488751.47,
+    "ysfTotalTs": 4879,
+    "esfDealArea": 853489.71,
+    "esfTotalTs": 9635
+  },
+  "2020-10": {
+    "ysfDealArea": 450368.73,
+    "ysfTotalTs": 4617,
+    "esfDealArea": 495344.59,
+    "esfTotalTs": 5579
+  },
+  "2020-11": {
+    "ysfDealArea": 627726.27,
+    "ysfTotalTs": 6300,
+    "esfDealArea": 561832.5,
+    "esfTotalTs": 6517
+  },
+  "2020-12": {
+    "ysfDealArea": 507359.74,
+    "ysfTotalTs": 5320,
+    "esfDealArea": 685384.13,
+    "esfTotalTs": 7656
+  },
+  "2021-01": {
+    "ysfDealArea": 814484.74,
+    "ysfTotalTs": 8357,
+    "esfDealArea": 678740.84,
+    "esfTotalTs": 7786
+  },
+  "2021-02": {
+    "ysfDealArea": 329696.7,
+    "ysfTotalTs": 3434,
+    "esfDealArea": 377530.53,
+    "esfTotalTs": 4556
+  },
+  "2021-03": {
+    "ysfDealArea": 511401.79,
+    "ysfTotalTs": 5309,
+    "esfDealArea": 630016.13,
+    "esfTotalTs": 7416
+  },
+  "2021-04": {
+    "ysfDealArea": 353382.2,
+    "ysfTotalTs": 3505,
+    "esfDealArea": 541813.39,
+    "esfTotalTs": 5512
+  },
+  "2021-05": {
+    "ysfDealArea": 265494.89,
+    "ysfTotalTs": 2679,
+    "esfDealArea": 337081.09,
+    "esfTotalTs": 3692
+  },
+  "2021-06": {
+    "ysfDealArea": 280831.7,
+    "ysfTotalTs": 2867,
+    "esfDealArea": 276831.41,
+    "esfTotalTs": 3110
+  },
+  "2021-07": {
+    "ysfDealArea": 262702.99,
+    "ysfTotalTs": 2697,
+    "esfDealArea": 298706.82,
+    "esfTotalTs": 3154
+  },
+  "2021-08": {
+    "ysfDealArea": 636205.99,
+    "ysfTotalTs": 5886,
+    "esfDealArea": 224898.34,
+    "esfTotalTs": 2422
+  },
+  "2021-09": {
+    "ysfDealArea": 328315.49,
+    "ysfTotalTs": 3346,
+    "esfDealArea": 199477.94,
+    "esfTotalTs": 2082
+  },
+  "2021-10": {
+    "ysfDealArea": 485679.82,
+    "ysfTotalTs": 4712,
+    "esfDealArea": 179836.49,
+    "esfTotalTs": 1975
+  },
+  "2021-11": {
+    "ysfDealArea": 556133.99,
+    "ysfTotalTs": 5643,
+    "esfDealArea": 237864.04,
+    "esfTotalTs": 2544
+  },
+  "2021-12": {
+    "ysfDealArea": 375506.15,
+    "ysfTotalTs": 3665,
+    "esfDealArea": 195185.37,
+    "esfTotalTs": 2076
+  },
+  "2022-01": {
+    "ysfDealArea": 394656.45,
+    "ysfTotalTs": 3612,
+    "esfDealArea": 147316.83,
+    "esfTotalTs": 1557
+  },
+  "2022-02": {
+    "ysfDealArea": 217849.79,
+    "ysfTotalTs": 2084,
+    "esfDealArea": 85539.12,
+    "esfTotalTs": 904
+  },
+  "2022-03": {
+    "ysfDealArea": 324208.51,
+    "ysfTotalTs": 3025,
+    "esfDealArea": 110404.57,
+    "esfTotalTs": 1196
+  },
+  "2022-04": {
+    "ysfDealArea": 308963.03,
+    "ysfTotalTs": 3002,
+    "esfDealArea": 174961.34,
+    "esfTotalTs": 1840
+  },
+  "2022-05": {
+    "ysfDealArea": 186669.19,
+    "ysfTotalTs": 1891,
+    "esfDealArea": 222497.5,
+    "esfTotalTs": 2336
+  },
+  "2022-06": {
+    "ysfDealArea": 327140.48,
+    "ysfTotalTs": 3008,
+    "esfDealArea": 218835.69,
+    "esfTotalTs": 2274
+  },
+  "2022-07": {
+    "ysfDealArea": 348334.9,
+    "ysfTotalTs": 3318,
+    "esfDealArea": 202062.17,
+    "esfTotalTs": 2071
+  },
+  "2022-08": {
+    "ysfDealArea": 275795.51,
+    "ysfTotalTs": 2651,
+    "esfDealArea": 196671.7,
+    "esfTotalTs": 2035
+  },
+  "2022-09": {
+    "ysfDealArea": 376942.38,
+    "ysfTotalTs": 3677,
+    "esfDealArea": 165612.96,
+    "esfTotalTs": 1755
+  },
+  "2022-10": {
+    "ysfDealArea": 331890.53,
+    "ysfTotalTs": 3328,
+    "esfDealArea": 166718.77,
+    "esfTotalTs": 1754
+  },
+  "2022-11": {
+    "ysfDealArea": 259235.87,
+    "ysfTotalTs": 2590,
+    "esfDealArea": 208762.72,
+    "esfTotalTs": 2201
+  },
+  "2022-12": {
+    "ysfDealArea": 267379.13,
+    "ysfTotalTs": 2851,
+    "esfDealArea": 203773.03,
+    "esfTotalTs": 2101
+  },
+  "2023-01": {
+    "ysfDealArea": 160546.14,
+    "ysfTotalTs": 1628,
+    "esfDealArea": 132190.82,
+    "esfTotalTs": 1399
+  },
+  "2023-02": {
+    "ysfDealArea": 221420.24,
+    "ysfTotalTs": 2041,
+    "esfDealArea": 238613.92,
+    "esfTotalTs": 2539
+  },
+  "2023-03": {
+    "ysfDealArea": 327328.71,
+    "ysfTotalTs": 3200,
+    "esfDealArea": 371225.83,
+    "esfTotalTs": 4001
+  },
+  "2023-04": {
+    "ysfDealArea": 350941.12,
+    "ysfTotalTs": 3506,
+    "esfDealArea": 306759.06,
+    "esfTotalTs": 3243
+  },
+  "2023-05": {
+    "ysfDealArea": 285674,
+    "ysfTotalTs": 2788,
+    "esfDealArea": 276290.1,
+    "esfTotalTs": 2813
+  },
+  "2023-06": {
+    "ysfDealArea": 310367.62,
+    "ysfTotalTs": 3049,
+    "esfDealArea": 239941.71,
+    "esfTotalTs": 2440
+  },
+  "2023-07": {
+    "ysfDealArea": 332806.2,
+    "ysfTotalTs": 3156,
+    "esfDealArea": 224471.45,
+    "esfTotalTs": 2290
+  },
+  "2023-08": {
+    "ysfDealArea": 222784.91,
+    "ysfTotalTs": 2199,
+    "esfDealArea": 234466.44,
+    "esfTotalTs": 2455
+  },
+  "2023-09": {
+    "ysfDealArea": 208108.77,
+    "ysfTotalTs": 2064,
+    "esfDealArea": 235844.5,
+    "esfTotalTs": 2437
+  },
+  "2023-10": {
+    "ysfDealArea": 261130.82,
+    "ysfTotalTs": 2654,
+    "esfDealArea": 268065.01,
+    "esfTotalTs": 2802
+  },
+  "2023-11": {
+    "ysfDealArea": 276809.95,
+    "ysfTotalTs": 2773,
+    "esfDealArea": 314575.51,
+    "esfTotalTs": 3207
+  },
+  "2023-12": {
+    "ysfDealArea": 254714.91,
+    "ysfTotalTs": 2554,
+    "esfDealArea": 338212.07,
+    "esfTotalTs": 3590
+  },
+  "2024-01": {
+    "ysfDealArea": 187866.4,
+    "ysfTotalTs": 1788,
+    "esfDealArea": 341484.76,
+    "esfTotalTs": 3525
+  },
+  "2024-02": {
+    "ysfDealArea": 86028.94,
+    "ysfTotalTs": 811,
+    "esfDealArea": 176887.49,
+    "esfTotalTs": 1822
+  },
+  "2024-03": {
+    "ysfDealArea": 229804.59,
+    "ysfTotalTs": 2245,
+    "esfDealArea": 370563.28,
+    "esfTotalTs": 3922
+  },
+  "2024-04": {
+    "ysfDealArea": 242093.86,
+    "ysfTotalTs": 2355,
+    "esfDealArea": 404838.23,
+    "esfTotalTs": 4264
+  },
+  "2024-05": {
+    "ysfDealArea": 204042.38,
+    "ysfTotalTs": 2009,
+    "esfDealArea": 410583.43,
+    "esfTotalTs": 4164
+  },
+  "2024-06": {
+    "ysfDealArea": 296445.03,
+    "ysfTotalTs": 2927,
+    "esfDealArea": 414075.93,
+    "esfTotalTs": 4249
+  },
+  "2024-07": {
+    "ysfDealArea": 290502.56,
+    "ysfTotalTs": 2616,
+    "esfDealArea": 456714.21,
+    "esfTotalTs": 4684
+  },
+  "2024-08": {
+    "ysfDealArea": 269544.22,
+    "ysfTotalTs": 2537,
+    "esfDealArea": 383583.59,
+    "esfTotalTs": 3916
+  },
+  "2024-09": {
+    "ysfDealArea": 172005,
+    "ysfTotalTs": 1686,
+    "esfDealArea": 318053.07,
+    "esfTotalTs": 3283
+  },
+  "2024-10": {
+    "ysfDealArea": 408141.89,
+    "ysfTotalTs": 4153,
+    "esfDealArea": 593360.76,
+    "esfTotalTs": 6320
+  },
+  "2024-11": {
+    "ysfDealArea": 795430.37,
+    "ysfTotalTs": 8077,
+    "esfDealArea": 691329.5,
+    "esfTotalTs": 7356
+  },
+  "2024-12": {
+    "ysfDealArea": 717970.71,
+    "ysfTotalTs": 6771,
+    "esfDealArea": 861367.62,
+    "esfTotalTs": 8516
+  },
+  "2025-01": {
+    "ysfDealArea": 398924.55,
+    "ysfTotalTs": 3971,
+    "esfDealArea": 474511.02,
+    "esfTotalTs": 4682
+  },
+  "2025-02": {
+    "ysfDealArea": 170067.44,
+    "ysfTotalTs": 1666,
+    "esfDealArea": 377495.36,
+    "esfTotalTs": 3764
+  },
+  "2025-03": {
+    "ysfDealArea": 300326.06,
+    "ysfTotalTs": 2929,
+    "esfDealArea": 612216.62,
+    "esfTotalTs": 6229
+  },
+  "2025-04": {
+    "ysfDealArea": 262781.46,
+    "ysfTotalTs": 2589,
+    "esfDealArea": 586755.7,
+    "esfTotalTs": 5895
+  },
+  "2025-05": {
+    "ysfDealArea": 211124.37,
+    "ysfTotalTs": 2054,
+    "esfDealArea": 487017.65,
+    "esfTotalTs": 4830
+  },
+  "2025-06": {
+    "ysfDealArea": 198707.2,
+    "ysfTotalTs": 1898,
+    "esfDealArea": 466444.39,
+    "esfTotalTs": 4629
+  },
+  "2025-07": {
+    "ysfDealArea": 150382.64,
+    "ysfTotalTs": 1441,
+    "esfDealArea": 481499.86,
+    "esfTotalTs": 4799
+  },
+  "2025-08": {
+    "ysfDealArea": 128921.17,
+    "ysfTotalTs": 1248,
+    "esfDealArea": 425373.24,
+    "esfTotalTs": 4283
+  },
+  "2025-09": {
+    "ysfDealArea": 175022.04,
+    "ysfTotalTs": 1712,
+    "esfDealArea": 463727.59,
+    "esfTotalTs": 4683
+  }
+}
