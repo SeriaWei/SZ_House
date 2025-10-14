@@ -166,4 +166,15 @@ function main() {
     getTrendingData(startYear, startMonth, endYear, endMonth);
 }
 
-main();
+// Export functions for use in other modules
+module.exports = {
+    getTrendingData,
+    aggregateMultiMonthData,
+    readExistingData,
+    writeData,
+    fetchApiData
+};
+
+if (require.main === module) {
+    main();
+}

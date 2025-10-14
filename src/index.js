@@ -3,6 +3,7 @@ const { getSecondHandHomesData } = require('./getSecondHandHomesData');
 const { getNewHomesMonthData } = require('./getNewHomesMonthData');
 const { getSecondHandHomesMonthData } = require('./getSecondHandHomesMonthData');
 const { saveDataToFile } = require('./saveData');
+const { getTrendingData } = require('./getTrendingData');
 
 /**
  * Format date string to ensure month and day are zero-padded
@@ -23,6 +24,17 @@ function formatDateString(dateStr) {
       }
       return `${year}-${formattedMonth}`;
     });
+}
+
+/**
+ * Get the previous month in the format YYYY-MM
+ * @returns {string} - Previous month in the format YYYY-MM
+ */
+function getPreviousMonth() {
+  const now = new Date();
+  const year = now.getMonth() === 0 ? now.getFullYear() - 1 : now.getFullYear(); // If current month is January, use previous year
+  const month = now.getMonth() === 0 ? 12 : (now.getMonth()).toString().padStart(2, '0'); // If current month is January, use December of previous year
+  return `${year}-${month}`;
 }
 
 /**
@@ -76,6 +88,12 @@ async function fetchAndSaveRealEstateData() {
       console.error('Error fetching previous month new homes data:', newHomesMonthResponse.msg);
     }
 
+    // Fetch and update trending data for the previous month
+    console.log('Fetching trending data for the previous month...');
+    const prevMonth = getPreviousMonth();
+    const [year, month] = prevMonth.split('-').map(Number);
+    await getTrendingData(year, month, year, month);
+    
     console.log('Data fetching and saving completed.');
   } catch (error) {
     console.error('Error in fetchAndSaveRealEstateData:', error);
