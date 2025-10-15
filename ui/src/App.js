@@ -16,6 +16,8 @@ function App() {
     esfTotalTs: true,
     ysfDealArea: false,
     esfDealArea: false,
+    ysfAverageArea: false,
+    esfAverageArea: false,
   });
 
   const [dateRange, setDateRange] = useState({
@@ -40,10 +42,12 @@ function App() {
   }, [dateRange]);
 
   const datasetConfig = {
-    ysfTotalTs: { label: '新房成交套数 (套)', borderColor: '#36A2EB' },
-    esfTotalTs: { label: '二手房成交套数 (套)', borderColor: '#FF6384' },
-    ysfDealArea: { label: '新房成交面积 (㎡)', borderColor: '#4BC0C0' },
-    esfDealArea: { label: '二手房成交面积 (㎡)', borderColor: '#FF9F40' },
+    ysfTotalTs: { label: '新房成交套数', borderColor: '#36A2EB' },
+    esfTotalTs: { label: '二手成交套数', borderColor: '#FF6384' },
+    ysfDealArea: { label: '新房成交面积', borderColor: '#4BC0C0' },
+    esfDealArea: { label: '二手成交面积', borderColor: '#FF9F40' },
+    ysfAverageArea: { label: '新房平均成交面积', borderColor: '#9966FF' },
+    esfAverageArea: { label: '二手平均成交面积', borderColor: '#FFCD56' },
   };
 
   return (

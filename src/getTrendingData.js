@@ -128,11 +128,19 @@ async function getTrendingData(startYear, startMonth, endYear, endMonth) {
 
             // Merge new data into existing data
             for (const yearMonthKey in monthlyAggregates) {
-                // Round the float numbers to 2 decimal places
-                monthlyAggregates[yearMonthKey].ysfDealArea = parseFloat(monthlyAggregates[yearMonthKey].ysfDealArea.toFixed(2));
-                monthlyAggregates[yearMonthKey].esfDealArea = parseFloat(monthlyAggregates[yearMonthKey].esfDealArea.toFixed(2));
+                const monthData = monthlyAggregates[yearMonthKey];
 
-                existingData[yearMonthKey] = monthlyAggregates[yearMonthKey];
+                // Calculate average area
+                const ysfAverageArea = monthData.ysfTotalTs > 0 ? monthData.ysfDealArea / monthData.ysfTotalTs : 0;
+                const esfAverageArea = monthData.esfTotalTs > 0 ? monthData.esfDealArea / monthData.esfTotalTs : 0;
+
+                // Round the float numbers to 2 decimal places
+                monthData.ysfDealArea = parseFloat(monthData.ysfDealArea.toFixed(2));
+                monthData.esfDealArea = parseFloat(monthData.esfDealArea.toFixed(2));
+                monthData.ysfAverageArea = parseFloat(ysfAverageArea.toFixed(2));
+                monthData.esfAverageArea = parseFloat(esfAverageArea.toFixed(2));
+
+                existingData[yearMonthKey] = monthData;
                 console.log(`Successfully processed data for ${yearMonthKey}`);
             }
 

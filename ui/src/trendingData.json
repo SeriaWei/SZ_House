@@ -3,1290 +3,1720 @@
     "ysfDealArea": 102064.33,
     "ysfTotalTs": 1129,
     "esfDealArea": 261822.09,
-    "esfTotalTs": 2378
+    "esfTotalTs": 2378,
+    "ysfAverageArea": 90.4,
+    "esfAverageArea": 110.1
   },
   "2007-12": {
     "ysfDealArea": 224043.33,
     "ysfTotalTs": 2357,
     "esfDealArea": 475132.31,
-    "esfTotalTs": 3352
+    "esfTotalTs": 3352,
+    "ysfAverageArea": 95.05,
+    "esfAverageArea": 141.75
   },
   "2008-01": {
     "ysfDealArea": 204072.59,
     "ysfTotalTs": 2217,
     "esfDealArea": 291959.6,
-    "esfTotalTs": 3017
+    "esfTotalTs": 3017,
+    "ysfAverageArea": 92.05,
+    "esfAverageArea": 96.77
   },
   "2008-02": {
     "ysfDealArea": 72912.89,
     "ysfTotalTs": 781,
     "esfDealArea": 140712.09,
-    "esfTotalTs": 1464
+    "esfTotalTs": 1464,
+    "ysfAverageArea": 93.36,
+    "esfAverageArea": 96.11
   },
   "2008-03": {
     "ysfDealArea": 334451.05,
     "ysfTotalTs": 3457,
     "esfDealArea": 344173.64,
-    "esfTotalTs": 3211
+    "esfTotalTs": 3211,
+    "ysfAverageArea": 96.75,
+    "esfAverageArea": 107.19
   },
   "2008-04": {
     "ysfDealArea": 259884.71,
     "ysfTotalTs": 3124,
     "esfDealArea": 384231.33,
-    "esfTotalTs": 4334
+    "esfTotalTs": 4334,
+    "ysfAverageArea": 83.19,
+    "esfAverageArea": 88.66
   },
   "2008-05": {
     "ysfDealArea": 405954.93,
     "ysfTotalTs": 4732,
     "esfDealArea": 478293.66,
-    "esfTotalTs": 4142
+    "esfTotalTs": 4142,
+    "ysfAverageArea": 85.79,
+    "esfAverageArea": 115.47
   },
   "2008-06": {
     "ysfDealArea": 283033.29,
     "ysfTotalTs": 2905,
     "esfDealArea": 413156.86,
-    "esfTotalTs": 4035
+    "esfTotalTs": 4035,
+    "ysfAverageArea": 97.43,
+    "esfAverageArea": 102.39
   },
   "2008-07": {
     "ysfDealArea": 248013.32,
     "ysfTotalTs": 2615,
     "esfDealArea": 501657.27,
-    "esfTotalTs": 4188
+    "esfTotalTs": 4188,
+    "ysfAverageArea": 94.84,
+    "esfAverageArea": 119.78
   },
   "2008-08": {
     "ysfDealArea": 310159.57,
     "ysfTotalTs": 3380,
     "esfDealArea": 378889.03,
-    "esfTotalTs": 3452
+    "esfTotalTs": 3452,
+    "ysfAverageArea": 91.76,
+    "esfAverageArea": 109.76
   },
   "2008-09": {
     "ysfDealArea": 308969.62,
     "ysfTotalTs": 3276,
     "esfDealArea": 365367.85,
-    "esfTotalTs": 3442
+    "esfTotalTs": 3442,
+    "ysfAverageArea": 94.31,
+    "esfAverageArea": 106.15
   },
   "2008-10": {
     "ysfDealArea": 338447.28,
     "ysfTotalTs": 3483,
     "esfDealArea": 300530.49,
-    "esfTotalTs": 2751
+    "esfTotalTs": 2751,
+    "ysfAverageArea": 97.17,
+    "esfAverageArea": 109.24
   },
   "2008-11": {
     "ysfDealArea": 591381.58,
     "ysfTotalTs": 6433,
     "esfDealArea": 415950.3,
-    "esfTotalTs": 4021
+    "esfTotalTs": 4021,
+    "ysfAverageArea": 91.93,
+    "esfAverageArea": 103.44
   },
   "2008-12": {
     "ysfDealArea": 728749.04,
     "ysfTotalTs": 7898,
     "esfDealArea": 523557.89,
-    "esfTotalTs": 4843
+    "esfTotalTs": 4843,
+    "ysfAverageArea": 92.27,
+    "esfAverageArea": 108.11
   },
   "2009-01": {
     "ysfDealArea": 391890.07,
     "ysfTotalTs": 4445,
     "esfDealArea": 424541.28,
-    "esfTotalTs": 4724
+    "esfTotalTs": 4724,
+    "ysfAverageArea": 88.16,
+    "esfAverageArea": 89.87
   },
   "2009-02": {
     "ysfDealArea": 488414.73,
     "ysfTotalTs": 5275,
     "esfDealArea": 474085.51,
-    "esfTotalTs": 5380
+    "esfTotalTs": 5380,
+    "ysfAverageArea": 92.59,
+    "esfAverageArea": 88.12
   },
   "2009-03": {
     "ysfDealArea": 810136.45,
     "ysfTotalTs": 8509,
     "esfDealArea": 997246.67,
-    "esfTotalTs": 11049
+    "esfTotalTs": 11049,
+    "ysfAverageArea": 95.21,
+    "esfAverageArea": 90.26
   },
   "2009-04": {
     "ysfDealArea": 745800.57,
     "ysfTotalTs": 7694,
     "esfDealArea": 1198395.2,
-    "esfTotalTs": 13477
+    "esfTotalTs": 13477,
+    "ysfAverageArea": 96.93,
+    "esfAverageArea": 88.92
   },
   "2009-05": {
     "ysfDealArea": 775925.11,
     "ysfTotalTs": 8479,
     "esfDealArea": 1025186.21,
-    "esfTotalTs": 11630
+    "esfTotalTs": 11630,
+    "ysfAverageArea": 91.51,
+    "esfAverageArea": 88.15
   },
   "2009-06": {
     "ysfDealArea": 664119.1,
     "ysfTotalTs": 6982,
     "esfDealArea": 1319780.57,
-    "esfTotalTs": 14387
+    "esfTotalTs": 14387,
+    "ysfAverageArea": 95.12,
+    "esfAverageArea": 91.73
   },
   "2009-07": {
     "ysfDealArea": 548344.73,
     "ysfTotalTs": 5501,
     "esfDealArea": 1411904.79,
-    "esfTotalTs": 15826
+    "esfTotalTs": 15826,
+    "ysfAverageArea": 99.68,
+    "esfAverageArea": 89.21
   },
   "2009-08": {
     "ysfDealArea": 385964.1,
     "ysfTotalTs": 4114,
     "esfDealArea": 1115749.09,
-    "esfTotalTs": 12444
+    "esfTotalTs": 12444,
+    "ysfAverageArea": 93.82,
+    "esfAverageArea": 89.66
   },
   "2009-09": {
     "ysfDealArea": 333529.58,
     "ysfTotalTs": 3252,
     "esfDealArea": 1164641.34,
-    "esfTotalTs": 12944
+    "esfTotalTs": 12944,
+    "ysfAverageArea": 102.56,
+    "esfAverageArea": 89.98
   },
   "2009-10": {
     "ysfDealArea": 496896.62,
     "ysfTotalTs": 5977,
     "esfDealArea": 914305.98,
-    "esfTotalTs": 10379
+    "esfTotalTs": 10379,
+    "ysfAverageArea": 83.13,
+    "esfAverageArea": 88.09
   },
   "2009-11": {
     "ysfDealArea": 468058.1,
     "ysfTotalTs": 5487,
     "esfDealArea": 1482719.66,
-    "esfTotalTs": 16666
+    "esfTotalTs": 16666,
+    "ysfAverageArea": 85.3,
+    "esfAverageArea": 88.97
   },
   "2009-12": {
     "ysfDealArea": 384884.81,
     "ysfTotalTs": 4359,
     "esfDealArea": 2454975.42,
-    "esfTotalTs": 27887
+    "esfTotalTs": 27887,
+    "ysfAverageArea": 88.3,
+    "esfAverageArea": 88.03
   },
   "2010-01": {
     "ysfDealArea": 358396.72,
     "ysfTotalTs": 3903,
     "esfDealArea": 833310.73,
-    "esfTotalTs": 9317
+    "esfTotalTs": 9317,
+    "ysfAverageArea": 91.83,
+    "esfAverageArea": 89.44
   },
   "2010-02": {
     "ysfDealArea": 91217.25,
     "ysfTotalTs": 1078,
     "esfDealArea": 480565.9,
-    "esfTotalTs": 5039
+    "esfTotalTs": 5039,
+    "ysfAverageArea": 84.62,
+    "esfAverageArea": 95.37
   },
   "2010-03": {
     "ysfDealArea": 261316.89,
     "ysfTotalTs": 3002,
     "esfDealArea": 991388.42,
-    "esfTotalTs": 10404
+    "esfTotalTs": 10404,
+    "ysfAverageArea": 87.05,
+    "esfAverageArea": 95.29
   },
   "2010-04": {
     "ysfDealArea": 291263.16,
     "ysfTotalTs": 3227,
     "esfDealArea": 1290590.51,
-    "esfTotalTs": 14740
+    "esfTotalTs": 14740,
+    "ysfAverageArea": 90.26,
+    "esfAverageArea": 87.56
   },
   "2010-05": {
     "ysfDealArea": 114386.08,
     "ysfTotalTs": 1386,
     "esfDealArea": 1073769.8,
-    "esfTotalTs": 12264
+    "esfTotalTs": 12264,
+    "ysfAverageArea": 82.53,
+    "esfAverageArea": 87.55
   },
   "2010-06": {
     "ysfDealArea": 152462.69,
     "ysfTotalTs": 1888,
     "esfDealArea": 791988.3,
-    "esfTotalTs": 7606
+    "esfTotalTs": 7606,
+    "ysfAverageArea": 80.75,
+    "esfAverageArea": 104.13
   },
   "2010-07": {
     "ysfDealArea": 142237.21,
     "ysfTotalTs": 1681,
     "esfDealArea": 779865.01,
-    "esfTotalTs": 8658
+    "esfTotalTs": 8658,
+    "ysfAverageArea": 84.61,
+    "esfAverageArea": 90.07
   },
   "2010-08": {
     "ysfDealArea": 260875.33,
     "ysfTotalTs": 2971,
     "esfDealArea": 1238297.13,
-    "esfTotalTs": 13278
+    "esfTotalTs": 13278,
+    "ysfAverageArea": 87.81,
+    "esfAverageArea": 93.26
   },
   "2010-09": {
     "ysfDealArea": 463668.13,
     "ysfTotalTs": 5422,
     "esfDealArea": 1019990.69,
-    "esfTotalTs": 11010
+    "esfTotalTs": 11010,
+    "ysfAverageArea": 85.52,
+    "esfAverageArea": 92.64
   },
   "2010-10": {
     "ysfDealArea": 456817.7,
     "ysfTotalTs": 4947,
     "esfDealArea": 984864.68,
-    "esfTotalTs": 10627
+    "esfTotalTs": 10627,
+    "ysfAverageArea": 92.34,
+    "esfAverageArea": 92.68
   },
   "2010-11": {
     "ysfDealArea": 233174.34,
     "ysfTotalTs": 2521,
     "esfDealArea": 799874.94,
-    "esfTotalTs": 8922
+    "esfTotalTs": 8922,
+    "ysfAverageArea": 92.49,
+    "esfAverageArea": 89.65
   },
   "2010-12": {
     "ysfDealArea": 383901.48,
     "ysfTotalTs": 4703,
     "esfDealArea": 1021774.47,
-    "esfTotalTs": 11072
+    "esfTotalTs": 11072,
+    "ysfAverageArea": 81.63,
+    "esfAverageArea": 92.28
   },
   "2011-01": {
     "ysfDealArea": 346215.58,
     "ysfTotalTs": 4140,
     "esfDealArea": 990555.17,
-    "esfTotalTs": 10831
+    "esfTotalTs": 10831,
+    "ysfAverageArea": 83.63,
+    "esfAverageArea": 91.46
   },
   "2011-02": {
     "ysfDealArea": 152441.03,
     "ysfTotalTs": 1808,
     "esfDealArea": 368649.52,
-    "esfTotalTs": 3837
+    "esfTotalTs": 3837,
+    "ysfAverageArea": 84.31,
+    "esfAverageArea": 96.08
   },
   "2011-03": {
     "ysfDealArea": 229474.9,
     "ysfTotalTs": 2683,
     "esfDealArea": 967654.32,
-    "esfTotalTs": 10613
+    "esfTotalTs": 10613,
+    "ysfAverageArea": 85.53,
+    "esfAverageArea": 91.18
   },
   "2011-04": {
     "ysfDealArea": 163677.63,
     "ysfTotalTs": 1904,
     "esfDealArea": 782955.04,
-    "esfTotalTs": 8382
+    "esfTotalTs": 8382,
+    "ysfAverageArea": 85.97,
+    "esfAverageArea": 93.41
   },
   "2011-05": {
     "ysfDealArea": 247715.83,
     "ysfTotalTs": 2949,
     "esfDealArea": 812212.75,
-    "esfTotalTs": 8337
+    "esfTotalTs": 8337,
+    "ysfAverageArea": 84,
+    "esfAverageArea": 97.42
   },
   "2011-06": {
     "ysfDealArea": 268427.51,
     "ysfTotalTs": 3066,
     "esfDealArea": 1070780.06,
-    "esfTotalTs": 10833
+    "esfTotalTs": 10833,
+    "ysfAverageArea": 87.55,
+    "esfAverageArea": 98.84
   },
   "2011-07": {
     "ysfDealArea": 339525.07,
     "ysfTotalTs": 3858,
     "esfDealArea": 662674.15,
-    "esfTotalTs": 6544
+    "esfTotalTs": 6544,
+    "ysfAverageArea": 88.01,
+    "esfAverageArea": 101.26
   },
   "2011-08": {
     "ysfDealArea": 205266.9,
     "ysfTotalTs": 2521,
     "esfDealArea": 256910.23,
-    "esfTotalTs": 2384
+    "esfTotalTs": 2384,
+    "ysfAverageArea": 81.42,
+    "esfAverageArea": 107.76
   },
   "2011-09": {
     "ysfDealArea": 163196.74,
     "ysfTotalTs": 2016,
     "esfDealArea": 312104.94,
-    "esfTotalTs": 3449
+    "esfTotalTs": 3449,
+    "ysfAverageArea": 80.95,
+    "esfAverageArea": 90.49
   },
   "2011-10": {
     "ysfDealArea": 184360.21,
     "ysfTotalTs": 2219,
     "esfDealArea": 271176.81,
-    "esfTotalTs": 2897
+    "esfTotalTs": 2897,
+    "ysfAverageArea": 83.08,
+    "esfAverageArea": 93.61
   },
   "2011-11": {
     "ysfDealArea": 147230.46,
     "ysfTotalTs": 1695,
     "esfDealArea": 318157.89,
-    "esfTotalTs": 3027
+    "esfTotalTs": 3027,
+    "ysfAverageArea": 86.86,
+    "esfAverageArea": 105.11
   },
   "2011-12": {
     "ysfDealArea": 284506.67,
     "ysfTotalTs": 3163,
     "esfDealArea": 318592.15,
-    "esfTotalTs": 2629
+    "esfTotalTs": 2629,
+    "ysfAverageArea": 89.95,
+    "esfAverageArea": 121.18
   },
   "2012-01": {
     "ysfDealArea": 122263.23,
     "ysfTotalTs": 1383,
     "esfDealArea": 138638.95,
-    "esfTotalTs": 1402
+    "esfTotalTs": 1402,
+    "ysfAverageArea": 88.4,
+    "esfAverageArea": 98.89
   },
   "2012-02": {
     "ysfDealArea": 172176.74,
     "ysfTotalTs": 1948,
     "esfDealArea": 172418.64,
-    "esfTotalTs": 1851
+    "esfTotalTs": 1851,
+    "ysfAverageArea": 88.39,
+    "esfAverageArea": 93.15
   },
   "2012-03": {
     "ysfDealArea": 302271.38,
     "ysfTotalTs": 3449,
     "esfDealArea": 419706.28,
-    "esfTotalTs": 4366
+    "esfTotalTs": 4366,
+    "ysfAverageArea": 87.64,
+    "esfAverageArea": 96.13
   },
   "2012-04": {
     "ysfDealArea": 257223.08,
     "ysfTotalTs": 2889,
     "esfDealArea": 392802.71,
-    "esfTotalTs": 4602
+    "esfTotalTs": 4602,
+    "ysfAverageArea": 89.04,
+    "esfAverageArea": 85.35
   },
   "2012-05": {
     "ysfDealArea": 355251.78,
     "ysfTotalTs": 4084,
     "esfDealArea": 530835.59,
-    "esfTotalTs": 5662
+    "esfTotalTs": 5662,
+    "ysfAverageArea": 86.99,
+    "esfAverageArea": 93.75
   },
   "2012-06": {
     "ysfDealArea": 373824.43,
     "ysfTotalTs": 4189,
     "esfDealArea": 546934.1,
-    "esfTotalTs": 5832
+    "esfTotalTs": 5832,
+    "ysfAverageArea": 89.24,
+    "esfAverageArea": 93.78
   },
   "2012-07": {
     "ysfDealArea": 299573.79,
     "ysfTotalTs": 3296,
     "esfDealArea": 622367.45,
-    "esfTotalTs": 7076
+    "esfTotalTs": 7076,
+    "ysfAverageArea": 90.89,
+    "esfAverageArea": 87.95
   },
   "2012-08": {
     "ysfDealArea": 373875.02,
     "ysfTotalTs": 3827,
     "esfDealArea": 720643.26,
-    "esfTotalTs": 7750
+    "esfTotalTs": 7750,
+    "ysfAverageArea": 97.69,
+    "esfAverageArea": 92.99
   },
   "2012-09": {
     "ysfDealArea": 247497.66,
     "ysfTotalTs": 2627,
     "esfDealArea": 932612.02,
-    "esfTotalTs": 8520
+    "esfTotalTs": 8520,
+    "ysfAverageArea": 94.21,
+    "esfAverageArea": 109.46
   },
   "2012-10": {
     "ysfDealArea": 330860.93,
     "ysfTotalTs": 3646,
     "esfDealArea": 401708.17,
-    "esfTotalTs": 4863
+    "esfTotalTs": 4863,
+    "ysfAverageArea": 90.75,
+    "esfAverageArea": 82.61
   },
   "2012-11": {
     "ysfDealArea": 416618.15,
     "ysfTotalTs": 4352,
     "esfDealArea": 588054.53,
-    "esfTotalTs": 6859
+    "esfTotalTs": 6859,
+    "ysfAverageArea": 95.73,
+    "esfAverageArea": 85.73
   },
   "2012-12": {
     "ysfDealArea": 431278.38,
     "ysfTotalTs": 4649,
     "esfDealArea": 587970.4,
-    "esfTotalTs": 7016
+    "esfTotalTs": 7016,
+    "ysfAverageArea": 92.77,
+    "esfAverageArea": 83.8
   },
   "2013-01": {
     "ysfDealArea": 570414.33,
     "ysfTotalTs": 6324,
     "esfDealArea": 751731,
-    "esfTotalTs": 8530
+    "esfTotalTs": 8530,
+    "ysfAverageArea": 90.2,
+    "esfAverageArea": 88.13
   },
   "2013-02": {
     "ysfDealArea": 147714.71,
     "ysfTotalTs": 1642,
     "esfDealArea": 327795.96,
-    "esfTotalTs": 3840
+    "esfTotalTs": 3840,
+    "ysfAverageArea": 89.96,
+    "esfAverageArea": 85.36
   },
   "2013-03": {
     "ysfDealArea": 362018.9,
     "ysfTotalTs": 3967,
     "esfDealArea": 1574108.43,
-    "esfTotalTs": 18373
+    "esfTotalTs": 18373,
+    "ysfAverageArea": 91.26,
+    "esfAverageArea": 85.68
   },
   "2013-04": {
     "ysfDealArea": 356831.25,
     "ysfTotalTs": 3940,
     "esfDealArea": 515538.82,
-    "esfTotalTs": 6121
+    "esfTotalTs": 6121,
+    "ysfAverageArea": 90.57,
+    "esfAverageArea": 84.22
   },
   "2013-05": {
     "ysfDealArea": 460002.5,
     "ysfTotalTs": 4999,
     "esfDealArea": 637088.56,
-    "esfTotalTs": 7178
+    "esfTotalTs": 7178,
+    "ysfAverageArea": 92.02,
+    "esfAverageArea": 88.76
   },
   "2013-06": {
     "ysfDealArea": 475095.51,
     "ysfTotalTs": 5091,
     "esfDealArea": 610027.2,
-    "esfTotalTs": 6933
+    "esfTotalTs": 6933,
+    "ysfAverageArea": 93.32,
+    "esfAverageArea": 87.99
   },
   "2013-07": {
     "ysfDealArea": 329883.68,
     "ysfTotalTs": 3472,
     "esfDealArea": 760574.02,
-    "esfTotalTs": 8336
+    "esfTotalTs": 8336,
+    "ysfAverageArea": 95.01,
+    "esfAverageArea": 91.24
   },
   "2013-08": {
     "ysfDealArea": 327967.25,
     "ysfTotalTs": 3419,
     "esfDealArea": 694690.67,
-    "esfTotalTs": 7539
+    "esfTotalTs": 7539,
+    "ysfAverageArea": 95.92,
+    "esfAverageArea": 92.15
   },
   "2013-09": {
     "ysfDealArea": 303738.18,
     "ysfTotalTs": 3169,
     "esfDealArea": 827525.81,
-    "esfTotalTs": 8269
+    "esfTotalTs": 8269,
+    "ysfAverageArea": 95.85,
+    "esfAverageArea": 100.08
   },
   "2013-10": {
     "ysfDealArea": 330235,
     "ysfTotalTs": 3654,
     "esfDealArea": 595235.95,
-    "esfTotalTs": 6767
+    "esfTotalTs": 6767,
+    "ysfAverageArea": 90.38,
+    "esfAverageArea": 87.96
   },
   "2013-11": {
     "ysfDealArea": 459758.86,
     "ysfTotalTs": 4830,
     "esfDealArea": 616587.71,
-    "esfTotalTs": 7057
+    "esfTotalTs": 7057,
+    "ysfAverageArea": 95.19,
+    "esfAverageArea": 87.37
   },
   "2013-12": {
     "ysfDealArea": 306412.41,
     "ysfTotalTs": 3426,
     "esfDealArea": 648142.28,
-    "esfTotalTs": 6581
+    "esfTotalTs": 6581,
+    "ysfAverageArea": 89.44,
+    "esfAverageArea": 98.49
   },
   "2014-01": {
     "ysfDealArea": 175372.83,
     "ysfTotalTs": 1880,
     "esfDealArea": 494129.05,
-    "esfTotalTs": 5338
+    "esfTotalTs": 5338,
+    "ysfAverageArea": 93.28,
+    "esfAverageArea": 92.57
   },
   "2014-02": {
     "ysfDealArea": 237228.63,
     "ysfTotalTs": 2534,
     "esfDealArea": 279687.47,
-    "esfTotalTs": 3293
+    "esfTotalTs": 3293,
+    "ysfAverageArea": 93.62,
+    "esfAverageArea": 84.93
   },
   "2014-03": {
     "ysfDealArea": 262704.92,
     "ysfTotalTs": 2849,
     "esfDealArea": 466423.93,
-    "esfTotalTs": 5470
+    "esfTotalTs": 5470,
+    "ysfAverageArea": 92.21,
+    "esfAverageArea": 85.27
   },
   "2014-04": {
     "ysfDealArea": 280005.45,
     "ysfTotalTs": 2947,
     "esfDealArea": 541776.62,
-    "esfTotalTs": 6027
+    "esfTotalTs": 6027,
+    "ysfAverageArea": 95.01,
+    "esfAverageArea": 89.89
   },
   "2014-05": {
     "ysfDealArea": 242223.03,
     "ysfTotalTs": 2548,
     "esfDealArea": 500679.22,
-    "esfTotalTs": 5531
+    "esfTotalTs": 5531,
+    "ysfAverageArea": 95.06,
+    "esfAverageArea": 90.52
   },
   "2014-06": {
     "ysfDealArea": 233243.56,
     "ysfTotalTs": 2428,
     "esfDealArea": 426744.76,
-    "esfTotalTs": 5084
+    "esfTotalTs": 5084,
+    "ysfAverageArea": 96.06,
+    "esfAverageArea": 83.94
   },
   "2014-07": {
     "ysfDealArea": 226919.19,
     "ysfTotalTs": 2429,
     "esfDealArea": 502466,
-    "esfTotalTs": 5167
+    "esfTotalTs": 5167,
+    "ysfAverageArea": 93.42,
+    "esfAverageArea": 97.25
   },
   "2014-08": {
     "ysfDealArea": 277831.21,
     "ysfTotalTs": 2893,
     "esfDealArea": 445873.28,
-    "esfTotalTs": 4978
+    "esfTotalTs": 4978,
+    "ysfAverageArea": 96.04,
+    "esfAverageArea": 89.57
   },
   "2014-09": {
     "ysfDealArea": 294110.89,
     "ysfTotalTs": 3118,
     "esfDealArea": 418844.18,
-    "esfTotalTs": 4432
+    "esfTotalTs": 4432,
+    "ysfAverageArea": 94.33,
+    "esfAverageArea": 94.5
   },
   "2014-10": {
     "ysfDealArea": 448664.96,
     "ysfTotalTs": 4787,
     "esfDealArea": 426644.96,
-    "esfTotalTs": 4525
+    "esfTotalTs": 4525,
+    "ysfAverageArea": 93.73,
+    "esfAverageArea": 94.29
   },
   "2014-11": {
     "ysfDealArea": 575085.89,
     "ysfTotalTs": 5791,
     "esfDealArea": 616075.05,
-    "esfTotalTs": 7088
+    "esfTotalTs": 7088,
+    "ysfAverageArea": 99.31,
+    "esfAverageArea": 86.92
   },
   "2014-12": {
     "ysfDealArea": 787674.97,
     "ysfTotalTs": 7767,
     "esfDealArea": 837958.94,
-    "esfTotalTs": 9792
+    "esfTotalTs": 9792,
+    "ysfAverageArea": 101.41,
+    "esfAverageArea": 85.58
   },
   "2015-01": {
     "ysfDealArea": 702515,
     "ysfTotalTs": 7296,
     "esfDealArea": 914945.73,
-    "esfTotalTs": 9768
+    "esfTotalTs": 9768,
+    "ysfAverageArea": 96.29,
+    "esfAverageArea": 93.67
   },
   "2015-02": {
     "ysfDealArea": 196612.35,
     "ysfTotalTs": 1985,
     "esfDealArea": 527190.28,
-    "esfTotalTs": 5728
+    "esfTotalTs": 5728,
+    "ysfAverageArea": 99.05,
+    "esfAverageArea": 92.04
   },
   "2015-03": {
     "ysfDealArea": 465714.2,
     "ysfTotalTs": 4857,
     "esfDealArea": 650550.47,
-    "esfTotalTs": 7588
+    "esfTotalTs": 7588,
+    "ysfAverageArea": 95.89,
+    "esfAverageArea": 85.73
   },
   "2015-04": {
     "ysfDealArea": 405754.01,
     "ysfTotalTs": 4076,
     "esfDealArea": 946375.66,
-    "esfTotalTs": 11201
+    "esfTotalTs": 11201,
+    "ysfAverageArea": 99.55,
+    "esfAverageArea": 84.49
   },
   "2015-05": {
     "ysfDealArea": 608693.99,
     "ysfTotalTs": 6111,
     "esfDealArea": 1226515.89,
-    "esfTotalTs": 14298
+    "esfTotalTs": 14298,
+    "ysfAverageArea": 99.61,
+    "esfAverageArea": 85.78
   },
   "2015-06": {
     "ysfDealArea": 769747.16,
     "ysfTotalTs": 7503,
     "esfDealArea": 1415069.84,
-    "esfTotalTs": 16790
+    "esfTotalTs": 16790,
+    "ysfAverageArea": 102.59,
+    "esfAverageArea": 84.28
   },
   "2015-07": {
     "ysfDealArea": 674855.81,
     "ysfTotalTs": 6420,
     "esfDealArea": 1514336.55,
-    "esfTotalTs": 17640
+    "esfTotalTs": 17640,
+    "ysfAverageArea": 105.12,
+    "esfAverageArea": 85.85
   },
   "2015-08": {
     "ysfDealArea": 577871.44,
     "ysfTotalTs": 5647,
     "esfDealArea": 1096831.95,
-    "esfTotalTs": 12509
+    "esfTotalTs": 12509,
+    "ysfAverageArea": 102.33,
+    "esfAverageArea": 87.68
   },
   "2015-09": {
     "ysfDealArea": 409413.73,
     "ysfTotalTs": 4063,
     "esfDealArea": 1105347.13,
-    "esfTotalTs": 12074
+    "esfTotalTs": 12074,
+    "ysfAverageArea": 100.77,
+    "esfAverageArea": 91.55
   },
   "2015-10": {
     "ysfDealArea": 542458.79,
     "ysfTotalTs": 5589,
     "esfDealArea": 631860.88,
-    "esfTotalTs": 7610
+    "esfTotalTs": 7610,
+    "ysfAverageArea": 97.06,
+    "esfAverageArea": 83.03
   },
   "2015-11": {
     "ysfDealArea": 584140.7,
     "ysfTotalTs": 5669,
     "esfDealArea": 949254.87,
-    "esfTotalTs": 10737
+    "esfTotalTs": 10737,
+    "ysfAverageArea": 103.04,
+    "esfAverageArea": 88.41
   },
   "2015-12": {
     "ysfDealArea": 727148.11,
     "ysfTotalTs": 7289,
     "esfDealArea": 1209004.59,
-    "esfTotalTs": 13950
+    "esfTotalTs": 13950,
+    "ysfAverageArea": 99.76,
+    "esfAverageArea": 86.67
   },
   "2016-01": {
     "ysfDealArea": 563151.99,
     "ysfTotalTs": 5450,
     "esfDealArea": 1424191.37,
-    "esfTotalTs": 16476
+    "esfTotalTs": 16476,
+    "ysfAverageArea": 103.33,
+    "esfAverageArea": 86.44
   },
   "2016-02": {
     "ysfDealArea": 556876.64,
     "ysfTotalTs": 5410,
     "esfDealArea": 845998.34,
-    "esfTotalTs": 9075
+    "esfTotalTs": 9075,
+    "ysfAverageArea": 102.93,
+    "esfAverageArea": 93.22
   },
   "2016-03": {
     "ysfDealArea": 465482.82,
     "ysfTotalTs": 4469,
     "esfDealArea": 1868099.64,
-    "esfTotalTs": 20453
+    "esfTotalTs": 20453,
+    "ysfAverageArea": 104.16,
+    "esfAverageArea": 91.34
   },
   "2016-04": {
     "ysfDealArea": 253144.8,
     "ysfTotalTs": 2343,
     "esfDealArea": 797533.94,
-    "esfTotalTs": 9475
+    "esfTotalTs": 9475,
+    "ysfAverageArea": 108.04,
+    "esfAverageArea": 84.17
   },
   "2016-05": {
     "ysfDealArea": 246083.32,
     "ysfTotalTs": 2262,
     "esfDealArea": 442995.27,
-    "esfTotalTs": 5081
+    "esfTotalTs": 5081,
+    "ysfAverageArea": 108.79,
+    "esfAverageArea": 87.19
   },
   "2016-06": {
     "ysfDealArea": 346692.36,
     "ysfTotalTs": 3255,
     "esfDealArea": 489290.13,
-    "esfTotalTs": 5410
+    "esfTotalTs": 5410,
+    "ysfAverageArea": 106.51,
+    "esfAverageArea": 90.44
   },
   "2016-07": {
     "ysfDealArea": 309324.66,
     "ysfTotalTs": 2987,
     "esfDealArea": 566577.29,
-    "esfTotalTs": 6523
+    "esfTotalTs": 6523,
+    "ysfAverageArea": 103.56,
+    "esfAverageArea": 86.86
   },
   "2016-08": {
     "ysfDealArea": 233150.02,
     "ysfTotalTs": 2314,
     "esfDealArea": 655605.03,
-    "esfTotalTs": 7907
+    "esfTotalTs": 7907,
+    "ysfAverageArea": 100.76,
+    "esfAverageArea": 82.91
   },
   "2016-09": {
     "ysfDealArea": 278164.98,
     "ysfTotalTs": 2622,
     "esfDealArea": 705283.02,
-    "esfTotalTs": 8452
+    "esfTotalTs": 8452,
+    "ysfAverageArea": 106.09,
+    "esfAverageArea": 83.45
   },
   "2016-10": {
     "ysfDealArea": 423093.71,
     "ysfTotalTs": 4282,
     "esfDealArea": 613361.79,
-    "esfTotalTs": 7091
+    "esfTotalTs": 7091,
+    "ysfAverageArea": 98.81,
+    "esfAverageArea": 86.5
   },
   "2016-11": {
     "ysfDealArea": 289264.94,
     "ysfTotalTs": 2923,
     "esfDealArea": 595442.33,
-    "esfTotalTs": 6621
+    "esfTotalTs": 6621,
+    "ysfAverageArea": 98.96,
+    "esfAverageArea": 89.93
   },
   "2016-12": {
     "ysfDealArea": 219121.1,
     "ysfTotalTs": 2169,
     "esfDealArea": 422321.19,
-    "esfTotalTs": 4729
+    "esfTotalTs": 4729,
+    "ysfAverageArea": 101.02,
+    "esfAverageArea": 89.3
   },
   "2017-01": {
     "ysfDealArea": 174612.59,
     "ysfTotalTs": 1656,
     "esfDealArea": 391280.67,
-    "esfTotalTs": 3479
+    "esfTotalTs": 3479,
+    "ysfAverageArea": 105.44,
+    "esfAverageArea": 112.47
   },
   "2017-02": {
     "ysfDealArea": 81850.72,
     "ysfTotalTs": 804,
     "esfDealArea": 236551.8,
-    "esfTotalTs": 2544
+    "esfTotalTs": 2544,
+    "ysfAverageArea": 101.8,
+    "esfAverageArea": 92.98
   },
   "2017-03": {
     "ysfDealArea": 80479.3,
     "ysfTotalTs": 805,
     "esfDealArea": 476429.01,
-    "esfTotalTs": 5520
+    "esfTotalTs": 5520,
+    "ysfAverageArea": 99.97,
+    "esfAverageArea": 86.31
   },
   "2017-04": {
     "ysfDealArea": 190268.47,
     "ysfTotalTs": 1977,
     "esfDealArea": 609900.18,
-    "esfTotalTs": 7051
+    "esfTotalTs": 7051,
+    "ysfAverageArea": 96.24,
+    "esfAverageArea": 86.5
   },
   "2017-05": {
     "ysfDealArea": 235046.15,
     "ysfTotalTs": 2319,
     "esfDealArea": 598071.44,
-    "esfTotalTs": 6614
+    "esfTotalTs": 6614,
+    "ysfAverageArea": 101.36,
+    "esfAverageArea": 90.43
   },
   "2017-06": {
     "ysfDealArea": 292748.67,
     "ysfTotalTs": 2956,
     "esfDealArea": 613426.93,
-    "esfTotalTs": 7080
+    "esfTotalTs": 7080,
+    "ysfAverageArea": 99.04,
+    "esfAverageArea": 86.64
   },
   "2017-07": {
     "ysfDealArea": 203914.01,
     "ysfTotalTs": 2026,
     "esfDealArea": 545989.19,
-    "esfTotalTs": 6573
+    "esfTotalTs": 6573,
+    "ysfAverageArea": 100.65,
+    "esfAverageArea": 83.07
   },
   "2017-08": {
     "ysfDealArea": 201400.04,
     "ysfTotalTs": 1986,
     "esfDealArea": 567807.67,
-    "esfTotalTs": 6797
+    "esfTotalTs": 6797,
+    "ysfAverageArea": 101.41,
+    "esfAverageArea": 83.54
   },
   "2017-09": {
     "ysfDealArea": 273359.17,
     "ysfTotalTs": 2733,
     "esfDealArea": 585349.96,
-    "esfTotalTs": 7241
+    "esfTotalTs": 7241,
+    "ysfAverageArea": 100.02,
+    "esfAverageArea": 80.84
   },
   "2017-10": {
     "ysfDealArea": 279051.69,
     "ysfTotalTs": 2792,
     "esfDealArea": 441791.29,
-    "esfTotalTs": 5573
+    "esfTotalTs": 5573,
+    "ysfAverageArea": 99.95,
+    "esfAverageArea": 79.27
   },
   "2017-11": {
     "ysfDealArea": 254016.8,
     "ysfTotalTs": 2548,
     "esfDealArea": 554749.75,
-    "esfTotalTs": 6612
+    "esfTotalTs": 6612,
+    "ysfAverageArea": 99.69,
+    "esfAverageArea": 83.9
   },
   "2017-12": {
     "ysfDealArea": 329940.98,
     "ysfTotalTs": 3251,
     "esfDealArea": 698202.24,
-    "esfTotalTs": 8537
+    "esfTotalTs": 8537,
+    "ysfAverageArea": 101.49,
+    "esfAverageArea": 81.79
   },
   "2018-01": {
     "ysfDealArea": 281822.53,
     "ysfTotalTs": 2782,
     "esfDealArea": 625978.44,
-    "esfTotalTs": 7507
+    "esfTotalTs": 7507,
+    "ysfAverageArea": 101.3,
+    "esfAverageArea": 83.39
   },
   "2018-02": {
     "ysfDealArea": 77721.98,
     "ysfTotalTs": 794,
     "esfDealArea": 345186.6,
-    "esfTotalTs": 3484
+    "esfTotalTs": 3484,
+    "ysfAverageArea": 97.89,
+    "esfAverageArea": 99.08
   },
   "2018-03": {
     "ysfDealArea": 204348.58,
     "ysfTotalTs": 2032,
     "esfDealArea": 532638.73,
-    "esfTotalTs": 6460
+    "esfTotalTs": 6460,
+    "ysfAverageArea": 100.57,
+    "esfAverageArea": 82.45
   },
   "2018-04": {
     "ysfDealArea": 187081.27,
     "ysfTotalTs": 1934,
     "esfDealArea": 552323.2,
-    "esfTotalTs": 6792
+    "esfTotalTs": 6792,
+    "ysfAverageArea": 96.73,
+    "esfAverageArea": 81.32
   },
   "2018-05": {
     "ysfDealArea": 259351.44,
     "ysfTotalTs": 2565,
     "esfDealArea": 625320.65,
-    "esfTotalTs": 7803
+    "esfTotalTs": 7803,
+    "ysfAverageArea": 101.11,
+    "esfAverageArea": 80.14
   },
   "2018-06": {
     "ysfDealArea": 279525.37,
     "ysfTotalTs": 2709,
     "esfDealArea": 613728.31,
-    "esfTotalTs": 7028
+    "esfTotalTs": 7028,
+    "ysfAverageArea": 103.18,
+    "esfAverageArea": 87.33
   },
   "2018-07": {
     "ysfDealArea": 342447.29,
     "ysfTotalTs": 3464,
     "esfDealArea": 662792.88,
-    "esfTotalTs": 7954
+    "esfTotalTs": 7954,
+    "ysfAverageArea": 98.86,
+    "esfAverageArea": 83.33
   },
   "2018-08": {
     "ysfDealArea": 354540.96,
     "ysfTotalTs": 3694,
     "esfDealArea": 657996,
-    "esfTotalTs": 8054
+    "esfTotalTs": 8054,
+    "ysfAverageArea": 95.98,
+    "esfAverageArea": 81.7
   },
   "2018-09": {
     "ysfDealArea": 220371.08,
     "ysfTotalTs": 2249,
     "esfDealArea": 462486.6,
-    "esfTotalTs": 5588
+    "esfTotalTs": 5588,
+    "ysfAverageArea": 97.99,
+    "esfAverageArea": 82.76
   },
   "2018-10": {
     "ysfDealArea": 178385.81,
     "ysfTotalTs": 1837,
     "esfDealArea": 363199.24,
-    "esfTotalTs": 4625
+    "esfTotalTs": 4625,
+    "ysfAverageArea": 97.11,
+    "esfAverageArea": 78.53
   },
   "2018-11": {
     "ysfDealArea": 195305.4,
     "ysfTotalTs": 1987,
     "esfDealArea": 428636.77,
-    "esfTotalTs": 4962
+    "esfTotalTs": 4962,
+    "ysfAverageArea": 98.29,
+    "esfAverageArea": 86.38
   },
   "2018-12": {
     "ysfDealArea": 345996.74,
     "ysfTotalTs": 3376,
     "esfDealArea": 385361.51,
-    "esfTotalTs": 4467
+    "esfTotalTs": 4467,
+    "ysfAverageArea": 102.49,
+    "esfAverageArea": 86.27
   },
   "2019-01": {
     "ysfDealArea": 252276.67,
     "ysfTotalTs": 2505,
     "esfDealArea": 404045.43,
-    "esfTotalTs": 4587
+    "esfTotalTs": 4587,
+    "ysfAverageArea": 100.71,
+    "esfAverageArea": 88.08
   },
   "2019-02": {
     "ysfDealArea": 127516.32,
     "ysfTotalTs": 1279,
     "esfDealArea": 187777.22,
-    "esfTotalTs": 2221
+    "esfTotalTs": 2221,
+    "ysfAverageArea": 99.7,
+    "esfAverageArea": 84.55
   },
   "2019-03": {
     "ysfDealArea": 304732.69,
     "ysfTotalTs": 3090,
     "esfDealArea": 415160.87,
-    "esfTotalTs": 5105
+    "esfTotalTs": 5105,
+    "ysfAverageArea": 98.62,
+    "esfAverageArea": 81.32
   },
   "2019-04": {
     "ysfDealArea": 257790.97,
     "ysfTotalTs": 2707,
     "esfDealArea": 682109.71,
-    "esfTotalTs": 8448
+    "esfTotalTs": 8448,
+    "ysfAverageArea": 95.23,
+    "esfAverageArea": 80.74
   },
   "2019-05": {
     "ysfDealArea": 442062.82,
     "ysfTotalTs": 4607,
     "esfDealArea": 681890.12,
-    "esfTotalTs": 8187
+    "esfTotalTs": 8187,
+    "ysfAverageArea": 95.95,
+    "esfAverageArea": 83.29
   },
   "2019-06": {
     "ysfDealArea": 337750.22,
     "ysfTotalTs": 3511,
     "esfDealArea": 533503.38,
-    "esfTotalTs": 6510
+    "esfTotalTs": 6510,
+    "ysfAverageArea": 96.2,
+    "esfAverageArea": 81.95
   },
   "2019-07": {
     "ysfDealArea": 347985.47,
     "ysfTotalTs": 3633,
     "esfDealArea": 637420.53,
-    "esfTotalTs": 7526
+    "esfTotalTs": 7526,
+    "ysfAverageArea": 95.78,
+    "esfAverageArea": 84.7
   },
   "2019-08": {
     "ysfDealArea": 287332.11,
     "ysfTotalTs": 3040,
     "esfDealArea": 612482.56,
-    "esfTotalTs": 7426
+    "esfTotalTs": 7426,
+    "ysfAverageArea": 94.52,
+    "esfAverageArea": 82.48
   },
   "2019-09": {
     "ysfDealArea": 276387.83,
     "ysfTotalTs": 2824,
     "esfDealArea": 658804.4,
-    "esfTotalTs": 7939
+    "esfTotalTs": 7939,
+    "ysfAverageArea": 97.87,
+    "esfAverageArea": 82.98
   },
   "2019-10": {
     "ysfDealArea": 267359.9,
     "ysfTotalTs": 2660,
     "esfDealArea": 641590.62,
-    "esfTotalTs": 7905
+    "esfTotalTs": 7905,
+    "ysfAverageArea": 100.51,
+    "esfAverageArea": 81.16
   },
   "2019-11": {
     "ysfDealArea": 330055.13,
     "ysfTotalTs": 3199,
     "esfDealArea": 724884.93,
-    "esfTotalTs": 8787
+    "esfTotalTs": 8787,
+    "ysfAverageArea": 103.17,
+    "esfAverageArea": 82.5
   },
   "2019-12": {
     "ysfDealArea": 496842.94,
     "ysfTotalTs": 4867,
     "esfDealArea": 902449.58,
-    "esfTotalTs": 10858
+    "esfTotalTs": 10858,
+    "ysfAverageArea": 102.08,
+    "esfAverageArea": 83.11
   },
   "2020-01": {
     "ysfDealArea": 286418.39,
     "ysfTotalTs": 2823,
     "esfDealArea": 689079.1,
-    "esfTotalTs": 8090
+    "esfTotalTs": 8090,
+    "ysfAverageArea": 101.46,
+    "esfAverageArea": 85.18
   },
   "2020-02": {
     "ysfDealArea": 85239.9,
     "ysfTotalTs": 830,
     "esfDealArea": 154936.24,
-    "esfTotalTs": 1778
+    "esfTotalTs": 1778,
+    "ysfAverageArea": 102.7,
+    "esfAverageArea": 87.14
   },
   "2020-03": {
     "ysfDealArea": 324001.6,
     "ysfTotalTs": 3154,
     "esfDealArea": 729289.01,
-    "esfTotalTs": 8581
+    "esfTotalTs": 8581,
+    "ysfAverageArea": 102.73,
+    "esfAverageArea": 84.99
   },
   "2020-04": {
     "ysfDealArea": 327505.08,
     "ysfTotalTs": 3448,
     "esfDealArea": 733004.78,
-    "esfTotalTs": 8484
+    "esfTotalTs": 8484,
+    "ysfAverageArea": 94.98,
+    "esfAverageArea": 86.4
   },
   "2020-05": {
     "ysfDealArea": 301064.89,
     "ysfTotalTs": 3143,
     "esfDealArea": 769557.93,
-    "esfTotalTs": 9208
+    "esfTotalTs": 9208,
+    "ysfAverageArea": 95.79,
+    "esfAverageArea": 83.57
   },
   "2020-06": {
     "ysfDealArea": 336504.28,
     "ysfTotalTs": 3352,
     "esfDealArea": 973370.32,
-    "esfTotalTs": 11415
+    "esfTotalTs": 11415,
+    "ysfAverageArea": 100.39,
+    "esfAverageArea": 85.27
   },
   "2020-07": {
     "ysfDealArea": 348487.83,
     "ysfTotalTs": 3479,
     "esfDealArea": 1255800.15,
-    "esfTotalTs": 14309
+    "esfTotalTs": 14309,
+    "ysfAverageArea": 100.17,
+    "esfAverageArea": 87.76
   },
   "2020-08": {
     "ysfDealArea": 408820.36,
     "ysfTotalTs": 4076,
     "esfDealArea": 1041889.31,
-    "esfTotalTs": 12122
+    "esfTotalTs": 12122,
+    "ysfAverageArea": 100.3,
+    "esfAverageArea": 85.95
   },
   "2020-09": {
     "ysfDealArea": 488751.47,
     "ysfTotalTs": 4879,
     "esfDealArea": 853489.71,
-    "esfTotalTs": 9635
+    "esfTotalTs": 9635,
+    "ysfAverageArea": 100.17,
+    "esfAverageArea": 88.58
   },
   "2020-10": {
     "ysfDealArea": 450368.73,
     "ysfTotalTs": 4617,
     "esfDealArea": 495344.59,
-    "esfTotalTs": 5579
+    "esfTotalTs": 5579,
+    "ysfAverageArea": 97.55,
+    "esfAverageArea": 88.79
   },
   "2020-11": {
     "ysfDealArea": 627726.27,
     "ysfTotalTs": 6300,
     "esfDealArea": 561832.5,
-    "esfTotalTs": 6517
+    "esfTotalTs": 6517,
+    "ysfAverageArea": 99.64,
+    "esfAverageArea": 86.21
   },
   "2020-12": {
     "ysfDealArea": 507359.74,
     "ysfTotalTs": 5320,
     "esfDealArea": 685384.13,
-    "esfTotalTs": 7656
+    "esfTotalTs": 7656,
+    "ysfAverageArea": 95.37,
+    "esfAverageArea": 89.52
   },
   "2021-01": {
     "ysfDealArea": 814484.74,
     "ysfTotalTs": 8357,
     "esfDealArea": 678740.84,
-    "esfTotalTs": 7786
+    "esfTotalTs": 7786,
+    "ysfAverageArea": 97.46,
+    "esfAverageArea": 87.17
   },
   "2021-02": {
     "ysfDealArea": 329696.7,
     "ysfTotalTs": 3434,
     "esfDealArea": 377530.53,
-    "esfTotalTs": 4556
+    "esfTotalTs": 4556,
+    "ysfAverageArea": 96.01,
+    "esfAverageArea": 82.86
   },
   "2021-03": {
     "ysfDealArea": 511401.79,
     "ysfTotalTs": 5309,
     "esfDealArea": 630016.13,
-    "esfTotalTs": 7416
+    "esfTotalTs": 7416,
+    "ysfAverageArea": 96.33,
+    "esfAverageArea": 84.95
   },
   "2021-04": {
     "ysfDealArea": 353382.2,
     "ysfTotalTs": 3505,
     "esfDealArea": 541813.39,
-    "esfTotalTs": 5512
+    "esfTotalTs": 5512,
+    "ysfAverageArea": 100.82,
+    "esfAverageArea": 98.3
   },
   "2021-05": {
     "ysfDealArea": 265494.89,
     "ysfTotalTs": 2679,
     "esfDealArea": 337081.09,
-    "esfTotalTs": 3692
+    "esfTotalTs": 3692,
+    "ysfAverageArea": 99.1,
+    "esfAverageArea": 91.3
   },
   "2021-06": {
     "ysfDealArea": 280831.7,
     "ysfTotalTs": 2867,
     "esfDealArea": 276831.41,
-    "esfTotalTs": 3110
+    "esfTotalTs": 3110,
+    "ysfAverageArea": 97.95,
+    "esfAverageArea": 89.01
   },
   "2021-07": {
     "ysfDealArea": 262702.99,
     "ysfTotalTs": 2697,
     "esfDealArea": 298706.82,
-    "esfTotalTs": 3154
+    "esfTotalTs": 3154,
+    "ysfAverageArea": 97.41,
+    "esfAverageArea": 94.71
   },
   "2021-08": {
     "ysfDealArea": 636205.99,
     "ysfTotalTs": 5886,
     "esfDealArea": 224898.34,
-    "esfTotalTs": 2422
+    "esfTotalTs": 2422,
+    "ysfAverageArea": 108.09,
+    "esfAverageArea": 92.86
   },
   "2021-09": {
     "ysfDealArea": 328315.49,
     "ysfTotalTs": 3346,
     "esfDealArea": 199477.94,
-    "esfTotalTs": 2082
+    "esfTotalTs": 2082,
+    "ysfAverageArea": 98.12,
+    "esfAverageArea": 95.81
   },
   "2021-10": {
     "ysfDealArea": 485679.82,
     "ysfTotalTs": 4712,
     "esfDealArea": 179836.49,
-    "esfTotalTs": 1975
+    "esfTotalTs": 1975,
+    "ysfAverageArea": 103.07,
+    "esfAverageArea": 91.06
   },
   "2021-11": {
     "ysfDealArea": 556133.99,
     "ysfTotalTs": 5643,
     "esfDealArea": 237864.04,
-    "esfTotalTs": 2544
+    "esfTotalTs": 2544,
+    "ysfAverageArea": 98.55,
+    "esfAverageArea": 93.5
   },
   "2021-12": {
     "ysfDealArea": 375506.15,
     "ysfTotalTs": 3665,
     "esfDealArea": 195185.37,
-    "esfTotalTs": 2076
+    "esfTotalTs": 2076,
+    "ysfAverageArea": 102.46,
+    "esfAverageArea": 94.02
   },
   "2022-01": {
     "ysfDealArea": 394656.45,
     "ysfTotalTs": 3612,
     "esfDealArea": 147316.83,
-    "esfTotalTs": 1557
+    "esfTotalTs": 1557,
+    "ysfAverageArea": 109.26,
+    "esfAverageArea": 94.62
   },
   "2022-02": {
     "ysfDealArea": 217849.79,
     "ysfTotalTs": 2084,
     "esfDealArea": 85539.12,
-    "esfTotalTs": 904
+    "esfTotalTs": 904,
+    "ysfAverageArea": 104.53,
+    "esfAverageArea": 94.62
   },
   "2022-03": {
     "ysfDealArea": 324208.51,
     "ysfTotalTs": 3025,
     "esfDealArea": 110404.57,
-    "esfTotalTs": 1196
+    "esfTotalTs": 1196,
+    "ysfAverageArea": 107.18,
+    "esfAverageArea": 92.31
   },
   "2022-04": {
     "ysfDealArea": 308963.03,
     "ysfTotalTs": 3002,
     "esfDealArea": 174961.34,
-    "esfTotalTs": 1840
+    "esfTotalTs": 1840,
+    "ysfAverageArea": 102.92,
+    "esfAverageArea": 95.09
   },
   "2022-05": {
     "ysfDealArea": 186669.19,
     "ysfTotalTs": 1891,
     "esfDealArea": 222497.5,
-    "esfTotalTs": 2336
+    "esfTotalTs": 2336,
+    "ysfAverageArea": 98.71,
+    "esfAverageArea": 95.25
   },
   "2022-06": {
     "ysfDealArea": 327140.48,
     "ysfTotalTs": 3008,
     "esfDealArea": 218835.69,
-    "esfTotalTs": 2274
+    "esfTotalTs": 2274,
+    "ysfAverageArea": 108.76,
+    "esfAverageArea": 96.23
   },
   "2022-07": {
     "ysfDealArea": 348334.9,
     "ysfTotalTs": 3318,
     "esfDealArea": 202062.17,
-    "esfTotalTs": 2071
+    "esfTotalTs": 2071,
+    "ysfAverageArea": 104.98,
+    "esfAverageArea": 97.57
   },
   "2022-08": {
     "ysfDealArea": 275795.51,
     "ysfTotalTs": 2651,
     "esfDealArea": 196671.7,
-    "esfTotalTs": 2035
+    "esfTotalTs": 2035,
+    "ysfAverageArea": 104.03,
+    "esfAverageArea": 96.64
   },
   "2022-09": {
     "ysfDealArea": 376942.38,
     "ysfTotalTs": 3677,
     "esfDealArea": 165612.96,
-    "esfTotalTs": 1755
+    "esfTotalTs": 1755,
+    "ysfAverageArea": 102.51,
+    "esfAverageArea": 94.37
   },
   "2022-10": {
     "ysfDealArea": 331890.53,
     "ysfTotalTs": 3328,
     "esfDealArea": 166718.77,
-    "esfTotalTs": 1754
+    "esfTotalTs": 1754,
+    "ysfAverageArea": 99.73,
+    "esfAverageArea": 95.05
   },
   "2022-11": {
     "ysfDealArea": 259235.87,
     "ysfTotalTs": 2590,
     "esfDealArea": 208762.72,
-    "esfTotalTs": 2201
+    "esfTotalTs": 2201,
+    "ysfAverageArea": 100.09,
+    "esfAverageArea": 94.85
   },
   "2022-12": {
     "ysfDealArea": 267379.13,
     "ysfTotalTs": 2851,
     "esfDealArea": 203773.03,
-    "esfTotalTs": 2101
+    "esfTotalTs": 2101,
+    "ysfAverageArea": 93.78,
+    "esfAverageArea": 96.99
   },
   "2023-01": {
     "ysfDealArea": 160546.14,
     "ysfTotalTs": 1628,
     "esfDealArea": 132190.82,
-    "esfTotalTs": 1399
+    "esfTotalTs": 1399,
+    "ysfAverageArea": 98.62,
+    "esfAverageArea": 94.49
   },
   "2023-02": {
     "ysfDealArea": 221420.24,
     "ysfTotalTs": 2041,
     "esfDealArea": 238613.92,
-    "esfTotalTs": 2539
+    "esfTotalTs": 2539,
+    "ysfAverageArea": 108.49,
+    "esfAverageArea": 93.98
   },
   "2023-03": {
     "ysfDealArea": 327328.71,
     "ysfTotalTs": 3200,
     "esfDealArea": 371225.83,
-    "esfTotalTs": 4001
+    "esfTotalTs": 4001,
+    "ysfAverageArea": 102.29,
+    "esfAverageArea": 92.78
   },
   "2023-04": {
     "ysfDealArea": 350941.12,
     "ysfTotalTs": 3506,
     "esfDealArea": 306759.06,
-    "esfTotalTs": 3243
+    "esfTotalTs": 3243,
+    "ysfAverageArea": 100.1,
+    "esfAverageArea": 94.59
   },
   "2023-05": {
     "ysfDealArea": 285674,
     "ysfTotalTs": 2788,
     "esfDealArea": 276290.1,
-    "esfTotalTs": 2813
+    "esfTotalTs": 2813,
+    "ysfAverageArea": 102.47,
+    "esfAverageArea": 98.22
   },
   "2023-06": {
     "ysfDealArea": 310367.62,
     "ysfTotalTs": 3049,
     "esfDealArea": 239941.71,
-    "esfTotalTs": 2440
+    "esfTotalTs": 2440,
+    "ysfAverageArea": 101.79,
+    "esfAverageArea": 98.34
   },
   "2023-07": {
     "ysfDealArea": 332806.2,
     "ysfTotalTs": 3156,
     "esfDealArea": 224471.45,
-    "esfTotalTs": 2290
+    "esfTotalTs": 2290,
+    "ysfAverageArea": 105.45,
+    "esfAverageArea": 98.02
   },
   "2023-08": {
     "ysfDealArea": 222784.91,
     "ysfTotalTs": 2199,
     "esfDealArea": 234466.44,
-    "esfTotalTs": 2455
+    "esfTotalTs": 2455,
+    "ysfAverageArea": 101.31,
+    "esfAverageArea": 95.51
   },
   "2023-09": {
     "ysfDealArea": 208108.77,
     "ysfTotalTs": 2064,
     "esfDealArea": 235844.5,
-    "esfTotalTs": 2437
+    "esfTotalTs": 2437,
+    "ysfAverageArea": 100.83,
+    "esfAverageArea": 96.78
   },
   "2023-10": {
     "ysfDealArea": 261130.82,
     "ysfTotalTs": 2654,
     "esfDealArea": 268065.01,
-    "esfTotalTs": 2802
+    "esfTotalTs": 2802,
+    "ysfAverageArea": 98.39,
+    "esfAverageArea": 95.67
   },
   "2023-11": {
     "ysfDealArea": 276809.95,
     "ysfTotalTs": 2773,
     "esfDealArea": 314575.51,
-    "esfTotalTs": 3207
+    "esfTotalTs": 3207,
+    "ysfAverageArea": 99.82,
+    "esfAverageArea": 98.09
   },
   "2023-12": {
     "ysfDealArea": 254714.91,
     "ysfTotalTs": 2554,
     "esfDealArea": 338212.07,
-    "esfTotalTs": 3590
+    "esfTotalTs": 3590,
+    "ysfAverageArea": 99.73,
+    "esfAverageArea": 94.21
   },
   "2024-01": {
     "ysfDealArea": 187866.4,
     "ysfTotalTs": 1788,
     "esfDealArea": 341484.76,
-    "esfTotalTs": 3525
+    "esfTotalTs": 3525,
+    "ysfAverageArea": 105.07,
+    "esfAverageArea": 96.88
   },
   "2024-02": {
     "ysfDealArea": 86028.94,
     "ysfTotalTs": 811,
     "esfDealArea": 176887.49,
-    "esfTotalTs": 1822
+    "esfTotalTs": 1822,
+    "ysfAverageArea": 106.08,
+    "esfAverageArea": 97.08
   },
   "2024-03": {
     "ysfDealArea": 229804.59,
     "ysfTotalTs": 2245,
     "esfDealArea": 370563.28,
-    "esfTotalTs": 3922
+    "esfTotalTs": 3922,
+    "ysfAverageArea": 102.36,
+    "esfAverageArea": 94.48
   },
   "2024-04": {
     "ysfDealArea": 242093.86,
     "ysfTotalTs": 2355,
     "esfDealArea": 404838.23,
-    "esfTotalTs": 4264
+    "esfTotalTs": 4264,
+    "ysfAverageArea": 102.8,
+    "esfAverageArea": 94.94
   },
   "2024-05": {
     "ysfDealArea": 204042.38,
     "ysfTotalTs": 2009,
     "esfDealArea": 410583.43,
-    "esfTotalTs": 4164
+    "esfTotalTs": 4164,
+    "ysfAverageArea": 101.56,
+    "esfAverageArea": 98.6
   },
   "2024-06": {
     "ysfDealArea": 296445.03,
     "ysfTotalTs": 2927,
     "esfDealArea": 414075.93,
-    "esfTotalTs": 4249
+    "esfTotalTs": 4249,
+    "ysfAverageArea": 101.28,
+    "esfAverageArea": 97.45
   },
   "2024-07": {
     "ysfDealArea": 290502.56,
     "ysfTotalTs": 2616,
     "esfDealArea": 456714.21,
-    "esfTotalTs": 4684
+    "esfTotalTs": 4684,
+    "ysfAverageArea": 111.05,
+    "esfAverageArea": 97.51
   },
   "2024-08": {
     "ysfDealArea": 269544.22,
     "ysfTotalTs": 2537,
     "esfDealArea": 383583.59,
-    "esfTotalTs": 3916
+    "esfTotalTs": 3916,
+    "ysfAverageArea": 106.25,
+    "esfAverageArea": 97.95
   },
   "2024-09": {
     "ysfDealArea": 172005,
     "ysfTotalTs": 1686,
     "esfDealArea": 318053.07,
-    "esfTotalTs": 3283
+    "esfTotalTs": 3283,
+    "ysfAverageArea": 102.02,
+    "esfAverageArea": 96.88
   },
   "2024-10": {
     "ysfDealArea": 408141.89,
     "ysfTotalTs": 4153,
     "esfDealArea": 593360.76,
-    "esfTotalTs": 6320
+    "esfTotalTs": 6320,
+    "ysfAverageArea": 98.28,
+    "esfAverageArea": 93.89
   },
   "2024-11": {
     "ysfDealArea": 795430.37,
     "ysfTotalTs": 8077,
     "esfDealArea": 691329.5,
-    "esfTotalTs": 7356
+    "esfTotalTs": 7356,
+    "ysfAverageArea": 98.48,
+    "esfAverageArea": 93.98
   },
   "2024-12": {
     "ysfDealArea": 717970.71,
     "ysfTotalTs": 6771,
     "esfDealArea": 861367.62,
-    "esfTotalTs": 8516
+    "esfTotalTs": 8516,
+    "ysfAverageArea": 106.04,
+    "esfAverageArea": 101.15
   },
   "2025-01": {
     "ysfDealArea": 398924.55,
     "ysfTotalTs": 3971,
     "esfDealArea": 474511.02,
-    "esfTotalTs": 4682
+    "esfTotalTs": 4682,
+    "ysfAverageArea": 100.46,
+    "esfAverageArea": 101.35
   },
   "2025-02": {
     "ysfDealArea": 170067.44,
     "ysfTotalTs": 1666,
     "esfDealArea": 377495.36,
-    "esfTotalTs": 3764
+    "esfTotalTs": 3764,
+    "ysfAverageArea": 102.08,
+    "esfAverageArea": 100.29
   },
   "2025-03": {
     "ysfDealArea": 300326.06,
     "ysfTotalTs": 2929,
     "esfDealArea": 612216.62,
-    "esfTotalTs": 6229
+    "esfTotalTs": 6229,
+    "ysfAverageArea": 102.54,
+    "esfAverageArea": 98.28
   },
   "2025-04": {
     "ysfDealArea": 262781.46,
     "ysfTotalTs": 2589,
     "esfDealArea": 586755.7,
-    "esfTotalTs": 5895
+    "esfTotalTs": 5895,
+    "ysfAverageArea": 101.5,
+    "esfAverageArea": 99.53
   },
   "2025-05": {
     "ysfDealArea": 211124.37,
     "ysfTotalTs": 2054,
     "esfDealArea": 487017.65,
-    "esfTotalTs": 4830
+    "esfTotalTs": 4830,
+    "ysfAverageArea": 102.79,
+    "esfAverageArea": 100.83
   },
   "2025-06": {
     "ysfDealArea": 198707.2,
     "ysfTotalTs": 1898,
     "esfDealArea": 466444.39,
-    "esfTotalTs": 4629
+    "esfTotalTs": 4629,
+    "ysfAverageArea": 104.69,
+    "esfAverageArea": 100.77
   },
   "2025-07": {
     "ysfDealArea": 150382.64,
     "ysfTotalTs": 1441,
     "esfDealArea": 481499.86,
-    "esfTotalTs": 4799
+    "esfTotalTs": 4799,
+    "ysfAverageArea": 104.36,
+    "esfAverageArea": 100.33
   },
   "2025-08": {
     "ysfDealArea": 128921.17,
     "ysfTotalTs": 1248,
     "esfDealArea": 425373.24,
-    "esfTotalTs": 4283
+    "esfTotalTs": 4283,
+    "ysfAverageArea": 103.3,
+    "esfAverageArea": 99.32
   },
   "2025-09": {
     "ysfDealArea": 175022.04,
     "ysfTotalTs": 1712,
     "esfDealArea": 463727.59,
-    "esfTotalTs": 4683
+    "esfTotalTs": 4683,
+    "ysfAverageArea": 102.23,
+    "esfAverageArea": 99.02
   }
 }
