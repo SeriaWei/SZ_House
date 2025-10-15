@@ -49,7 +49,7 @@ main {
 
 .controls label {
   display: inline-block;
-  margin: 5px 15px;
+  margin: 2px;
   cursor: pointer;
 }
 
