@@ -15,7 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "prestart": "copy ..\\data\\trending.json .\\src\\trendingData.json",
+    "prestart": "node prestart.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

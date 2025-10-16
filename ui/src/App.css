@@ -23,6 +23,42 @@ main {
   padding: 20px;
 }
 
+/* Tab Styles */
+.tabs {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 5px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.tabs button:hover {
+  background-color: #f0f0f0;
+}
+
+.tabs button.active {
+  font-weight: bold;
+  color: #36A2EB;
+  border-bottom: 2px solid #36A2EB;
+}
+
+.tab-content {
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 .controls {
   display: flex;
   justify-content: center;
