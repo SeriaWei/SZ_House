@@ -4,52 +4,41 @@ const path = require('path');
 
 const DATA_FILE = path.join(__dirname, '..', 'data', 'trending.json');
 
-// Promisified function to make HTTPS POST requests
-function fetchApiData(startDate, endDate) {
-    return new Promise((resolve, reject) => {
-        const postData = JSON.stringify({
-            startDate,
-            endDate,
-            dateType: ''
-        });
-
-        const options = {
-            hostname: 'zjj.sz.gov.cn',
-            port: 8004,
-            path: '/api/marketInfoShow/getFjzsInfoData',
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0'
-            }
-        };
-
-        const req = https.request(options, (res) => {
-            let rawData = '';
-            res.on('data', (chunk) => {
-                rawData += chunk;
-            });
-            res.on('end', () => {
-                try {
-                    const parsedData = JSON.parse(rawData);
-                    if (parsedData.status === 1) {
-                        resolve(parsedData.data);
-                    } else {
-                        reject(new Error(`API returned an error: ${parsedData.msg}`));
-                    }
-                } catch (e) {
-                    reject(e);
-                }
-            });
-        });
-
-        req.on('error', (e) => {
-            reject(e);
-        });
-
-        req.write(postData);
-        req.end();
+// Function to make HTTPS POST requests using fetch
+async function fetchApiData(startDate, endDate) {
+    const url = 'https://zjj.sz.gov.cn:8004/api/marketInfoShow/getFjzsInfoData';
+    
+    const postData = JSON.stringify({
+        startDate,
+        endDate,
+        dateType: ''
     });
+
+    const options = {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0'
+        },
+        body: postData
+    };
+
+    try {
+        const response = await fetch(url, options);
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
+        const parsedData = await response.json();
+        if (parsedData.status === 1) {
+            return parsedData.data;
+        } else {
+            throw new Error(`API returned an error: ${parsedData.msg}`);
+        }
+    } catch (error) {
+        throw error;
+    }
 }
 
 // Aggregate multi-month daily data into monthly summaries
@@ -85,8 +74,7 @@ function readExistingData() {
         try {
             return JSON.parse(fileContent);
         } catch (e) {
-            console.error('Error parsing existing data file. Starting fresh.', e);
-            return {};
+            throw new Error('Error parsing existing data file: ' + e.message);
         }
     }
     return {};
@@ -149,7 +137,7 @@ async function getTrendingData(startYear, startMonth, endYear, endMonth) {
             console.log(`No data returned for the specified range.`);
         }
     } catch (error) {
-        console.error(`Failed to fetch or process data:`, error.message);
+        throw new Error('Failed to fetch or process data: ' + error.message);
     }
 }
 
@@ -167,7 +155,7 @@ function main() {
     const [endYear, endMonth] = end.split('-').map(Number);
 
     if (isNaN(startYear) || isNaN(startMonth) || isNaN(endYear) || isNaN(endMonth)) {
-        console.error('Invalid date format. Please use YYYY-MM.');
+        throw new Error('Invalid date format. Please use YYYY-MM.');
         return;
     }
 

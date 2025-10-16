@@ -1,4 +1,3 @@
-const https = require('https');
 const { addTotalStatistics } = require('./dataProcessor');
 
 /**
@@ -6,42 +5,30 @@ const { addTotalStatistics } = require('./dataProcessor');
  * @returns {Promise<Object>} The API response containing the data
  */
 async function getSecondHandHomesMonthData() {
-  return new Promise((resolve, reject) => {
-    const url = 'https://zjj.sz.gov.cn:8004/api/marketInfoShow/getEsfCjxxGsMonthDataNew';
+  const url = 'https://zjj.sz.gov.cn:8004/api/marketInfoShow/getEsfCjxxGsMonthDataNew';
+  
+  const options = {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'SZ_House_Data_Fetcher/1.0'
+    }
+  };
+
+  try {
+    const response = await fetch(url, options);
     
-    const options = {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'User-Agent': 'SZ_House_Data_Fetcher/1.0'
-      }
-    };
-
-    const req = https.request(url, options, (res) => {
-      let data = '';
-
-      res.on('data', (chunk) => {
-        data += chunk;
-      });
-
-      res.on('end', () => {
-        try {
-          const response = JSON.parse(data);
-          // Add total statistics before resolving
-          const responseWithTotals = addTotalStatistics(response);
-          resolve(responseWithTotals);
-        } catch (error) {
-          reject(error);
-        }
-      });
-    });
-
-    req.on('error', (error) => {
-      reject(error);
-    });
-
-    req.end();
-  });
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    
+    const data = await response.json();
+    // Add total statistics before returning
+    const responseWithTotals = addTotalStatistics(data);
+    return responseWithTotals;
+  } catch (error) {
+    throw error;
+  }
 }
 
 module.exports = { getSecondHandHomesMonthData };
