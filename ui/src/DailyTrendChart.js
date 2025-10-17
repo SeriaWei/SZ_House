@@ -35,6 +35,7 @@ const DailyTrendChart = () => {
     end: trendingDailyData.dates[trendingDailyData.dates.length - 1]
   });
   const [selectedDistricts, setSelectedDistricts] = useState(allDistricts);
+  const [previousSelectedDistricts, setPreviousSelectedDistricts] = useState(allDistricts);
   const [homeType, setHomeType] = useState('total');
   const [metric, setMetric] = useState('ts');
   const [merge, setMerge] = useState(false);
@@ -49,7 +50,7 @@ const DailyTrendChart = () => {
 
     if (merge) {
       const totalData = dateIndices.map(i => {
-        return selectedDistricts.reduce((sum, district) => {
+        return allDistricts.reduce((sum, district) => {
           const districtData = trendingDailyData.districts[district];
           let value = 0;
           if (homeType === 'total') {
@@ -61,7 +62,7 @@ const DailyTrendChart = () => {
         }, 0);
       });
       datasets = [{
-        label: '选中区域总和',
+        label: '全市',
         data: totalData,
         borderColor: '#36A2EB',
         backgroundColor: `${'#36A2EB'}80`,
@@ -152,8 +153,19 @@ const DailyTrendChart = () => {
           <fieldset>
               <legend>选择区域</legend>
               <label style={{fontWeight: 'bold'}}>
-                  <input type="checkbox" checked={merge} onChange={e => setMerge(e.target.checked)} />
-                  合并显示
+                  <input type="checkbox" checked={merge} onChange={e => {
+                    const isChecked = e.target.checked;
+                    setMerge(isChecked);
+                    // 当切换到全市时，保存当前选择以便恢复
+                    if (isChecked) {
+                      setPreviousSelectedDistricts(selectedDistricts);
+                      setSelectedDistricts(allDistricts);
+                    } else {
+                      // 恢复之前的选择
+                      setSelectedDistricts(previousSelectedDistricts);
+                    }
+                  }} />
+                  全市
               </label>
               {!merge && allDistricts.map(district => (
                   <label key={district}>
