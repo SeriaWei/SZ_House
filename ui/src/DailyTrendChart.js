@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Line } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
@@ -38,8 +38,11 @@ const DailyTrendChart = () => {
   const [previousSelectedDistricts, setPreviousSelectedDistricts] = useState(allDistricts);
   const [homeType, setHomeType] = useState('total');
   const [metric, setMetric] = useState('ts');
-  const [merge, setMerge] = useState(false);
+  const [merge, setMerge] = useState(true); // 默认选中全市
   const [chartData, setChartData] = useState({});
+  const [showDropdown, setShowDropdown] = useState(false);
+  
+  const dropdownRef = useRef(null);
 
   useEffect(() => {
     const { start, end } = dateRange;
@@ -101,18 +104,39 @@ const DailyTrendChart = () => {
 
   }, [dateRange, selectedDistricts, homeType, metric, merge]);
 
+  // 添加点击外部关闭下拉菜单的逻辑
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setShowDropdown(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+
   const handleDateChange = (e) => {
     const { name, value } = e.target;
     setDateRange(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleDistrictChange = (e) => {
-    const district = e.target.name;
-    if (e.target.checked) {
-      setSelectedDistricts([...selectedDistricts, district]);
-    } else {
+  const handleDistrictToggle = (district) => {
+    if (selectedDistricts.includes(district)) {
       setSelectedDistricts(selectedDistricts.filter(d => d !== district));
+    } else {
+      setSelectedDistricts([...selectedDistricts, district]);
     }
+  };
+
+  const handleSelectAll = () => {
+    setSelectedDistricts(allDistricts);
+  };
+
+  const handleSelectNone = () => {
+    setSelectedDistricts([]);
   };
 
   const options = {
@@ -133,6 +157,59 @@ const DailyTrendChart = () => {
     <>
       <div className="controls">
           <fieldset>
+              <legend>选择区域</legend>
+              <div className="district-controls">
+                <label style={{fontWeight: 'bold'}}>
+                    <input type="checkbox" checked={merge} onChange={e => {
+                      const isChecked = e.target.checked;
+                      setMerge(isChecked);
+                      // 当切换到全市时，保存当前选择以便恢复
+                      if (isChecked) {
+                        setPreviousSelectedDistricts(selectedDistricts);
+                        setSelectedDistricts(allDistricts);
+                      } else {
+                        // 恢复之前的选择
+                        setSelectedDistricts(previousSelectedDistricts);
+                      }
+                    }} />
+                    全市
+                </label>
+                {!merge && (
+                    <div className="dropdown-container" ref={dropdownRef}>
+                        <button 
+                            type="button" 
+                            className="dropdown-button"
+                            onClick={() => setShowDropdown(!showDropdown)}
+                        >
+                            已选择 {selectedDistricts.length} 个区域
+                        </button>
+                        
+                        {showDropdown && (
+                            <div className="dropdown-content">
+                                <div className="dropdown-controls">
+                                    <button type="button" onClick={handleSelectAll}>全选</button>
+                                    <button type="button" onClick={handleSelectNone}>取消全选</button>
+                                </div>
+                                <div className="checkbox-list">
+                                    {allDistricts.map(district => (
+                                        <label key={district} className="checkbox-item">
+                                            <input
+                                                type="checkbox"
+                                                checked={selectedDistricts.includes(district)}
+                                                onChange={() => handleDistrictToggle(district)}
+                                            />
+                                            {district}
+                                        </label>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+                    </div>
+                )}
+              </div>
+          </fieldset>
+          
+          <fieldset>
               <legend>日期范围</legend>
               <label>开始: <input type="date" name="start" value={dateRange.start} onChange={handleDateChange} /></label>
               <label>结束: <input type="date" name="end" value={dateRange.end} onChange={handleDateChange} /></label>
@@ -147,32 +224,6 @@ const DailyTrendChart = () => {
               <legend>数据指标</legend>
               <label><input type="radio" name="metric" value="ts" checked={metric === 'ts'} onChange={e => setMetric(e.target.value)} /> 成交套数</label>
               <label><input type="radio" name="metric" value="mj" checked={metric === 'mj'} onChange={e => setMetric(e.target.value)} /> 成交面积 (㎡)</label>
-          </fieldset>
-      </div>
-      <div className="controls">
-          <fieldset>
-              <legend>选择区域</legend>
-              <label style={{fontWeight: 'bold'}}>
-                  <input type="checkbox" checked={merge} onChange={e => {
-                    const isChecked = e.target.checked;
-                    setMerge(isChecked);
-                    // 当切换到全市时，保存当前选择以便恢复
-                    if (isChecked) {
-                      setPreviousSelectedDistricts(selectedDistricts);
-                      setSelectedDistricts(allDistricts);
-                    } else {
-                      // 恢复之前的选择
-                      setSelectedDistricts(previousSelectedDistricts);
-                    }
-                  }} />
-                  全市
-              </label>
-              {!merge && allDistricts.map(district => (
-                  <label key={district}>
-                  <input type="checkbox" name={district} checked={selectedDistricts.includes(district)} onChange={handleDistrictChange} />
-                  {district}
-                  </label>
-              ))}
           </fieldset>
       </div>
       <div className="chart-container">

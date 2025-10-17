@@ -100,6 +100,101 @@ main {
   border: 1px solid #ccc;
 }
 
+.controls select[multiple] {
+  width: 100%;
+  min-height: 150px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: white;
+  font-size: 14px;
+}
+
+/* Custom dropdown styles */
+.district-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.district-controls label {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-weight: normal;
+}
+
+.dropdown-container {
+  position: relative;
+  flex: 1;
+}
+
+.dropdown-button {
+  width: 100%;
+  padding: 1px 4px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 14px;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.dropdown-controls {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  gap: 5px;
+  flex-wrap: wrap; /* 允许换行以防止溢出 */
+}
+
+.dropdown-controls button {
+  padding: 5px 8px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  white-space: nowrap; /* 防止文字换行 */
+  flex: 1; /* 允许按钮伸缩 */
+  min-width: 70px; /* 设置最小宽度 */
+  text-align: center; /* 文字居中 */
+}
+
+.dropdown-controls button:hover {
+  background-color: #e9ecef;
+}
+
+.checkbox-list {
+  padding: 10px;
+}
+
+.checkbox-item {
+  display: block;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.checkbox-item input[type="checkbox"] {
+  margin-right: 8px;
+}
+
 .chart-container {
   background-color: #fff;
   padding: 20px;
