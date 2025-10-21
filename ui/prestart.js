@@ -20,10 +20,32 @@ try {
     console.error('Error copying trending.json:', error);
 }
 
+// Helper function to get all JSON files recursively from a directory and its subdirectories
+const getAllJsonFiles = (dir) => {
+    const files = [];
+    const items = fs.readdirSync(dir);
+    
+    for (const item of items) {
+        const itemPath = path.join(dir, item);
+        const stat = fs.statSync(itemPath);
+        
+        if (stat.isDirectory()) {
+            // Recursively get files from subdirectories
+            const subDirFiles = getAllJsonFiles(itemPath);
+            files.push(...subDirFiles);
+        } else if (path.extname(item) === '.json') {
+            // Only include JSON files
+            files.push(itemPath);
+        }
+    }
+    
+    return files;
+};
+
 // 2. Process daily data
 const processDailyData = () => {
-    const newHomesFiles = fs.readdirSync(newHomesPath);
-    const secondHandHomesFiles = fs.readdirSync(secondHandHomesPath);
+    const newHomesFiles = getAllJsonFiles(newHomesPath);
+    const secondHandHomesFiles = getAllJsonFiles(secondHandHomesPath);
 
     const allDates = [
         ...new Set([
@@ -53,7 +75,14 @@ const processDailyData = () => {
     const processDataByDate = (files, basePath) => {
         const dataByDate = {};
         for (const date of allDates) {
-            const data = readFileData(path.join(basePath, `${date}.json`));
+            // Find the file that matches the date
+            const matchingFile = files.find(file => path.basename(file, '.json') === date);
+            let data = { ts: [], mj: [] };
+            
+            if (matchingFile) {
+                data = readFileData(matchingFile);
+            }
+            
             dataByDate[date] = { ts: {}, mj: {} };
             for (const item of data.ts) {
                 dataByDate[date].ts[item.name] = item.value;
@@ -65,7 +94,7 @@ const processDailyData = () => {
             }
         }
         return dataByDate;
-    }
+    };
 
     const newHomesDataByDate = processDataByDate(newHomesFiles, newHomesPath);
     const secondHandHomesDataByDate = processDataByDate(secondHandHomesFiles, secondHandHomesPath);
