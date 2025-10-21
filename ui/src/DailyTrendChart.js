@@ -31,7 +31,7 @@ const DISTRICT_COLORS = [
 
 const DailyTrendChart = () => {
   const [dateRange, setDateRange] = useState({ 
-    start: trendingDailyData.dates[Math.max(0, trendingDailyData.dates.length - 7)],
+    start: trendingDailyData.dates[Math.max(0, trendingDailyData.dates.length - 30)],
     end: trendingDailyData.dates[trendingDailyData.dates.length - 1]
   });
   const [selectedDistricts, setSelectedDistricts] = useState(allDistricts);
