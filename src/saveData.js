@@ -14,9 +14,13 @@ function saveDataToFile(data, type, date) {
   // Determine the directory based on the type
   let directory;
   if (type === 'new_homes') {
-    directory = path.join('data', 'new_homes');
+    // Extract year-month from date for daily data and create subdirectory
+    const [year, month] = date.split('-');
+    directory = path.join('data', 'new_homes', `${year}-${month}`);
   } else if (type === 'second_hand_homes') {
-    directory = path.join('data', 'second_hand_homes');
+    // Extract year-month from date for daily data and create subdirectory
+    const [year, month] = date.split('-');
+    directory = path.join('data', 'second_hand_homes', `${year}-${month}`);
   } else if (type === 'new_homes_month') {
     directory = path.join('data', 'new_homes_month');
   } else if (type === 'second_hand_homes_month') {
