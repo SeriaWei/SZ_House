@@ -4,6 +4,7 @@ const { getNewHomesMonthData } = require('./getNewHomesMonthData');
 const { getSecondHandHomesMonthData } = require('./getSecondHandHomesMonthData');
 const { saveDataToFile } = require('./saveData');
 const { getTrendingData } = require('./getTrendingData');
+const { processUIData } = require('./processUIData');
 
 /**
  * Format date string to ensure month and day are zero-padded
@@ -94,6 +95,9 @@ async function fetchAndSaveRealEstateData() {
   await getTrendingData(year, month, year, month);
   
   console.log('Data fetching and saving completed.');
+  
+  // Process UI data after all data has been fetched
+  processUIData();
 }
 
 // Run the main function
