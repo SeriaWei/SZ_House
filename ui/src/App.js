@@ -6,6 +6,8 @@ import trendingData from './trendingData.json';
 
 // Prepare the data for the monthly chart
 const allMonths = Object.keys(trendingData).sort();
+// descending order (newest first) for UI selects
+const allMonthsDesc = [...allMonths].reverse();
 const monthlyChartData = allMonths.map(month => ({
   month,
   ...trendingData[month]
@@ -75,8 +77,8 @@ function App() {
               </fieldset>
               <fieldset>
                 <legend>选择日期范围</legend>
-                <label>开始月份: <select name="start" value={monthlyDateRange.start} onChange={handleMonthlyDateChange}>{allMonths.map(month => <option key={month} value={month}>{month}</option>)}</select></label>
-                <label>结束月份: <select name="end" value={monthlyDateRange.end} onChange={handleMonthlyDateChange}>{allMonths.map(month => <option key={month} value={month}>{month}</option>)}</select></label>
+                <label>开始月份: <select name="start" value={monthlyDateRange.start} onChange={handleMonthlyDateChange}>{allMonthsDesc.map(month => <option key={month} value={month}>{month}</option>)}</select></label>
+                <label>结束月份: <select name="end" value={monthlyDateRange.end} onChange={handleMonthlyDateChange}>{allMonthsDesc.map(month => <option key={month} value={month}>{month}</option>)}</select></label>
               </fieldset>
             </div>
             <div className="chart-container">
