@@ -4,100 +4,100 @@
   "data": {
     "result": null,
     "xmlDateMonth": "2025年10月",
-    "xmlDateDay": "2025年11月01日",
+    "xmlDateDay": "2025年11月1日",
     "dataMj": [
       {
         "name": "南山",
-        "value": 9608.35
+        "value": 1431.59
       },
       {
         "name": "福田",
-        "value": 6927.5
+        "value": 1724.13
       },
       {
         "name": "龙岗",
-        "value": 31123.13
+        "value": 1730.22
       },
       {
         "name": "宝安",
-        "value": 30613.33
+        "value": 1048.66
       },
       {
         "name": "罗湖",
-        "value": 3084.01
+        "value": 746.46
       },
       {
         "name": "盐田",
-        "value": 1039.32
+        "value": 41.96
       },
       {
         "name": "龙华",
-        "value": 34155.58
-      },
-      {
-        "name": "光明",
-        "value": 38169.11
-      },
-      {
-        "name": "大鹏",
-        "value": 0
+        "value": 440.82
       },
       {
         "name": "坪山",
-        "value": 12423.08
+        "value": 274.64
+      },
+      {
+        "name": "光明",
+        "value": 258.99
+      },
+      {
+        "name": "大鹏",
+        "value": 183.17
       },
       {
         "name": "深汕",
-        "value": 664.05
+        "value": 0
       }
     ],
     "dataTs": [
       {
         "name": "南山",
-        "value": 80
+        "value": 15
       },
       {
         "name": "福田",
-        "value": 44
+        "value": 12
       },
       {
         "name": "龙岗",
-        "value": 339
+        "value": 19
       },
       {
         "name": "宝安",
-        "value": 284
-      },
-      {
-        "name": "罗湖",
-        "value": 30
-      },
-      {
-        "name": "盐田",
         "value": 11
       },
       {
+        "name": "罗湖",
+        "value": 12
+      },
+      {
+        "name": "盐田",
+        "value": 1
+      },
+      {
         "name": "龙华",
-        "value": 348
-      },
-      {
-        "name": "光明",
-        "value": 400
-      },
-      {
-        "name": "大鹏",
-        "value": 0
+        "value": 5
       },
       {
         "name": "坪山",
-        "value": 147
+        "value": 3
+      },
+      {
+        "name": "光明",
+        "value": 3
+      },
+      {
+        "name": "大鹏",
+        "value": 2
       },
       {
         "name": "深汕",
-        "value": 7
+        "value": 0
       }
     ],
-    "dataTotalMj": 167807.46,
-    "dataTotalTs": 1690
+    "dataTotalMj": 7880.64,
+    "dataTotalTs": 83
   }
 }
