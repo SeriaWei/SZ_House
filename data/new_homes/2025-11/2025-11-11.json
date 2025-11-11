@@ -8,35 +8,35 @@
     "dataMj": [
       {
         "name": "南山",
-        "value": 9608.35
+        "value": 442.51
       },
       {
         "name": "福田",
-        "value": 6927.5
+        "value": 764.55
       },
       {
         "name": "龙岗",
-        "value": 31123.13
+        "value": 1482.39
       },
       {
         "name": "宝安",
-        "value": 30613.33
+        "value": 1377.46
       },
       {
         "name": "罗湖",
-        "value": 3084.01
+        "value": 174.27
       },
       {
         "name": "盐田",
-        "value": 1039.32
+        "value": 0
       },
       {
         "name": "龙华",
-        "value": 34155.58
+        "value": 965.29
       },
       {
         "name": "光明",
-        "value": 38169.11
+        "value": 766.81
       },
       {
         "name": "大鹏",
@@ -44,45 +44,45 @@
       },
       {
         "name": "坪山",
-        "value": 12423.08
+        "value": 152.28
       },
       {
         "name": "深汕",
-        "value": 664.05
+        "value": 0
       }
     ],
     "dataTs": [
       {
         "name": "南山",
-        "value": 80
+        "value": 5
       },
       {
         "name": "福田",
-        "value": 44
+        "value": 6
       },
       {
         "name": "龙岗",
-        "value": 339
+        "value": 12
       },
       {
         "name": "宝安",
-        "value": 284
+        "value": 12
       },
       {
         "name": "罗湖",
-        "value": 30
+        "value": 2
       },
       {
         "name": "盐田",
-        "value": 11
+        "value": 0
       },
       {
         "name": "龙华",
-        "value": 348
+        "value": 9
       },
       {
         "name": "光明",
-        "value": 400
+        "value": 7
       },
       {
         "name": "大鹏",
@@ -90,14 +90,14 @@
       },
       {
         "name": "坪山",
-        "value": 147
+        "value": 2
       },
       {
         "name": "深汕",
-        "value": 7
+        "value": 0
       }
     ],
-    "dataTotalMj": 167807.46,
-    "dataTotalTs": 1690
+    "dataTotalMj": 6125.56,
+    "dataTotalTs": 55
   }
 }
