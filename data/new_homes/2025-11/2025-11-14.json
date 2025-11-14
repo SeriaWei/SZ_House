@@ -8,35 +8,35 @@
     "dataMj": [
       {
         "name": "南山",
-        "value": 9608.35
+        "value": 790.38
       },
       {
         "name": "福田",
-        "value": 6927.5
+        "value": 0
       },
       {
         "name": "龙岗",
-        "value": 31123.13
+        "value": 2638.01
       },
       {
         "name": "宝安",
-        "value": 30613.33
+        "value": 1791.66
       },
       {
         "name": "罗湖",
-        "value": 3084.01
+        "value": 682.96
       },
       {
         "name": "盐田",
-        "value": 1039.32
+        "value": 89.26
       },
       {
         "name": "龙华",
-        "value": 34155.58
+        "value": 1614.69
       },
       {
         "name": "光明",
-        "value": 38169.11
+        "value": 1126.06
       },
       {
         "name": "大鹏",
@@ -44,45 +44,45 @@
       },
       {
         "name": "坪山",
-        "value": 12423.08
+        "value": 155.88
       },
       {
         "name": "深汕",
-        "value": 664.05
+        "value": 0
       }
     ],
     "dataTs": [
       {
         "name": "南山",
-        "value": 80
+        "value": 8
       },
       {
         "name": "福田",
-        "value": 44
+        "value": 0
       },
       {
         "name": "龙岗",
-        "value": 339
+        "value": 21
       },
       {
         "name": "宝安",
-        "value": 284
+        "value": 14
       },
       {
         "name": "罗湖",
-        "value": 30
+        "value": 6
       },
       {
         "name": "盐田",
-        "value": 11
+        "value": 1
       },
       {
         "name": "龙华",
-        "value": 348
+        "value": 17
       },
       {
         "name": "光明",
-        "value": 400
+        "value": 12
       },
       {
         "name": "大鹏",
@@ -90,14 +90,14 @@
       },
       {
         "name": "坪山",
-        "value": 147
+        "value": 2
       },
       {
         "name": "深汕",
-        "value": 7
+        "value": 0
       }
     ],
-    "dataTotalMj": 167807.46,
-    "dataTotalTs": 1690
+    "dataTotalMj": 8888.9,
+    "dataTotalTs": 81
   }
 }
