@@ -8,35 +8,35 @@
     "dataMj": [
       {
         "name": "南山",
-        "value": 9608.35
+        "value": 559.66
       },
       {
         "name": "福田",
-        "value": 6927.5
+        "value": 0
       },
       {
         "name": "龙岗",
-        "value": 31123.13
+        "value": 3183.3
       },
       {
         "name": "宝安",
-        "value": 30613.33
+        "value": 955.23
       },
       {
         "name": "罗湖",
-        "value": 3084.01
+        "value": 303.7
       },
       {
         "name": "盐田",
-        "value": 1039.32
+        "value": 0
       },
       {
         "name": "龙华",
-        "value": 34155.58
+        "value": 822.92
       },
       {
         "name": "光明",
-        "value": 38169.11
+        "value": 1888.84
       },
       {
         "name": "大鹏",
@@ -44,45 +44,45 @@
       },
       {
         "name": "坪山",
-        "value": 12423.08
+        "value": 565.35
       },
       {
         "name": "深汕",
-        "value": 664.05
+        "value": 94.59
       }
     ],
     "dataTs": [
       {
         "name": "南山",
-        "value": 80
+        "value": 5
       },
       {
         "name": "福田",
-        "value": 44
+        "value": 0
       },
       {
         "name": "龙岗",
-        "value": 339
+        "value": 27
       },
       {
         "name": "宝安",
-        "value": 284
+        "value": 8
       },
       {
         "name": "罗湖",
-        "value": 30
+        "value": 3
       },
       {
         "name": "盐田",
-        "value": 11
+        "value": 0
       },
       {
         "name": "龙华",
-        "value": 348
+        "value": 10
       },
       {
         "name": "光明",
-        "value": 400
+        "value": 18
       },
       {
         "name": "大鹏",
@@ -90,14 +90,14 @@
       },
       {
         "name": "坪山",
-        "value": 147
+        "value": 7
       },
       {
         "name": "深汕",
-        "value": 7
+        "value": 1
       }
     ],
-    "dataTotalMj": 167807.46,
-    "dataTotalTs": 1690
+    "dataTotalMj": 8373.59,
+    "dataTotalTs": 79
   }
 }
