@@ -8,35 +8,35 @@
     "dataMj": [
       {
         "name": "南山",
-        "value": 9608.35
+        "value": 492.1
       },
       {
         "name": "福田",
-        "value": 6927.5
+        "value": 460.1
       },
       {
         "name": "龙岗",
-        "value": 31123.13
+        "value": 2088.1
       },
       {
         "name": "宝安",
-        "value": 30613.33
+        "value": 1511.45
       },
       {
         "name": "罗湖",
-        "value": 3084.01
+        "value": 0
       },
       {
         "name": "盐田",
-        "value": 1039.32
+        "value": 0
       },
       {
         "name": "龙华",
-        "value": 34155.58
+        "value": 1329.74
       },
       {
         "name": "光明",
-        "value": 38169.11
+        "value": 822.83
       },
       {
         "name": "大鹏",
@@ -44,45 +44,45 @@
       },
       {
         "name": "坪山",
-        "value": 12423.08
+        "value": 1191.41
       },
       {
         "name": "深汕",
-        "value": 664.05
+        "value": 95.5
       }
     ],
     "dataTs": [
       {
         "name": "南山",
-        "value": 80
+        "value": 6
       },
       {
         "name": "福田",
-        "value": 44
+        "value": 4
       },
       {
         "name": "龙岗",
-        "value": 339
+        "value": 19
       },
       {
         "name": "宝安",
-        "value": 284
+        "value": 14
       },
       {
         "name": "罗湖",
-        "value": 30
+        "value": 0
       },
       {
         "name": "盐田",
-        "value": 11
+        "value": 0
       },
       {
         "name": "龙华",
-        "value": 348
+        "value": 14
       },
       {
         "name": "光明",
-        "value": 400
+        "value": 8
       },
       {
         "name": "大鹏",
@@ -90,14 +90,14 @@
       },
       {
         "name": "坪山",
-        "value": 147
+        "value": 15
       },
       {
         "name": "深汕",
-        "value": 7
+        "value": 1
       }
     ],
-    "dataTotalMj": 167807.46,
-    "dataTotalTs": 1690
+    "dataTotalMj": 7991.23,
+    "dataTotalTs": 81
   }
 }
