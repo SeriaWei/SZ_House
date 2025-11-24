@@ -8,43 +8,43 @@
     "dataMj": [
       {
         "name": "南山",
-        "value": 79326.4
+        "value": 3519.87
       },
       {
         "name": "福田",
-        "value": 84196.65
+        "value": 3226.35
       },
       {
         "name": "龙岗",
-        "value": 110239.07
+        "value": 5368.88
       },
       {
         "name": "宝安",
-        "value": 61799.37
+        "value": 2919.25
       },
       {
         "name": "罗湖",
-        "value": 69939.3
+        "value": 4500.59
       },
       {
         "name": "盐田",
-        "value": 13116.91
+        "value": 573.61
       },
       {
         "name": "龙华",
-        "value": 37267.47
+        "value": 1735.35
       },
       {
         "name": "坪山",
-        "value": 10369.12
+        "value": 187.95
       },
       {
         "name": "光明",
-        "value": 11501.86
+        "value": 380.58
       },
       {
         "name": "大鹏",
-        "value": 2031.98
+        "value": 570.11
       },
       {
         "name": "深汕",
@@ -54,50 +54,50 @@
     "dataTs": [
       {
         "name": "南山",
-        "value": 755
+        "value": 33
       },
       {
         "name": "福田",
-        "value": 904
+        "value": 37
       },
       {
         "name": "龙岗",
-        "value": 1283
+        "value": 67
       },
       {
         "name": "宝安",
-        "value": 647
+        "value": 27
       },
       {
         "name": "罗湖",
-        "value": 908
+        "value": 38
       },
       {
         "name": "盐田",
-        "value": 140
+        "value": 6
       },
       {
         "name": "龙华",
-        "value": 369
+        "value": 17
       },
       {
         "name": "坪山",
-        "value": 114
+        "value": 2
       },
       {
         "name": "光明",
-        "value": 134
+        "value": 5
       },
       {
         "name": "大鹏",
-        "value": 22
+        "value": 3
       },
       {
         "name": "深汕",
         "value": 0
       }
     ],
-    "dataTotalMj": 479788.13,
-    "dataTotalTs": 5276
+    "dataTotalMj": 22982.54,
+    "dataTotalTs": 235
   }
 }
