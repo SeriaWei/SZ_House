@@ -15,7 +15,7 @@ const monthlyChartData = allMonths.map(month => ({
 
 function App() {
   // State for active tab
-  const [activeTab, setActiveTab] = useState('monthly'); // 'monthly' or 'daily'
+  const [activeTab, setActiveTab] = useState('daily'); // 'monthly' or 'daily'
 
   // == State and handlers for Monthly Chart ==
   const [monthlyVisibleDatasets, setMonthlyVisibleDatasets] = useState({
@@ -59,8 +59,8 @@ function App() {
       </header>
       <main>
         <div className="tabs">
-          <button className={activeTab === 'monthly' ? 'active' : ''} onClick={() => setActiveTab('monthly')}>月度成交趋势</button>
           <button className={activeTab === 'daily' ? 'active' : ''} onClick={() => setActiveTab('daily')}>每日成交趋势</button>
+          <button className={activeTab === 'monthly' ? 'active' : ''} onClick={() => setActiveTab('monthly')}>月度成交趋势</button>
         </div>
 
         {activeTab === 'monthly' && (
