@@ -1,4 +1,4 @@
-const https = require('https');
+const fetch = require('./httpClient');
 const fs = require('fs');
 const path = require('path');
 

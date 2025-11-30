@@ -1,3 +1,4 @@
+const fetch = require('./httpClient');
 const { addTotalStatistics } = require('./dataProcessor');
 
 /**
