@@ -5,7 +5,7 @@ const { addTotalStatistics } = require('./dataProcessor');
  * @returns {Promise<Object>} The API response containing the data
  */
 async function getNewHomesMonthData() {
-  const url = 'https://zjj.sz.gov.cn:8004/api/marketInfoShow/getYsfCjxxGsMonthDataNew';
+  const url = 'https://fdc.zjj.sz.gov.cn/api/marketInfoShow/getYsfCjxxGsMonthDataNew';
   
   const options = {
     method: 'POST',

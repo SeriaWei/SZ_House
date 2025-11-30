@@ -6,7 +6,7 @@ const DATA_FILE = path.join(__dirname, '..', 'data', 'trending.json');
 
 // Function to make HTTPS POST requests using fetch
 async function fetchApiData(startDate, endDate) {
-    const url = 'https://zjj.sz.gov.cn:8004/api/marketInfoShow/getFjzsInfoData';
+    const url = 'https://fdc.zjj.sz.gov.cn/api/marketInfoShow/getFjzsInfoData';
     
     const postData = JSON.stringify({
         startDate,

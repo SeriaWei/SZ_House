@@ -36,7 +36,7 @@ POST /api/marketInfoShow/getEsfCjxxGsDataNew
 示例（PowerShell）：
 
 ``` powershell
-Invoke-RestMethod -Uri "https://zjj.sz.gov.cn:8004/api/marketInfoShow/getEsfCjxxGsDataNew" -Method Post | ConvertTo-Json -Depth 10
+Invoke-RestMethod -Uri "https://fdc.zjj.sz.gov.cn/api/marketInfoShow/getEsfCjxxGsDataNew" -Method Post | ConvertTo-Json -Depth 10
 ```
 
 响应 data 字段说明：
@@ -75,7 +75,7 @@ POST /api/marketInfoShow/getEsfCjxxGsMonthDataNew
 示例（PowerShell）：
 
 ``` powershell
-Invoke-RestMethod -Uri "https://zjj.sz.gov.cn:8004/api/marketInfoShow/getEsfCjxxGsMonthDataNew" -Method Post | ConvertTo-Json -Depth 10
+Invoke-RestMethod -Uri "https://fdc.zjj.sz.gov.cn/api/marketInfoShow/getEsfCjxxGsMonthDataNew" -Method Post | ConvertTo-Json -Depth 10
 ```
 
 响应 data 字段说明：同上（包含 xmlDateMonth、xmlDateDay、dataMj、dataTs）。
@@ -105,7 +105,7 @@ POST /api/marketInfoShow/getYsfCjxxGsDataNew
 ```
 示例（PowerShell）：
 ``` powershell
-Invoke-RestMethod -Uri "https://zjj.sz.gov.cn:8004/api/marketInfoShow/getYsfCjxxGsDataNew" -Method Post | ConvertTo-Json -Depth 10
+Invoke-RestMethod -Uri "https://fdc.zjj.sz.gov.cn/api/marketInfoShow/getYsfCjxxGsDataNew" -Method Post | ConvertTo-Json -Depth 10
 ```
 响应 data 字段说明：同上（xmlDateMonth、xmlDateDay、dataMj、dataTs）。
 
@@ -134,7 +134,7 @@ POST /api/marketInfoShow/getYsfCjxxGsMonthDataNew
 ```
 示例（PowerShell）：
 ``` powershell
-Invoke-RestMethod -Uri "https://zjj.sz.gov.cn:8004/api/marketInfoShow/getYsfCjxxGsMonthDataNew" -Method Post | ConvertTo-Json -Depth 10
+Invoke-RestMethod -Uri "https://fdc.zjj.sz.gov.cn/api/marketInfoShow/getYsfCjxxGsMonthDataNew" -Method Post | ConvertTo-Json -Depth 10
 ```
 响应 data 字段说明：同上。
 
@@ -171,7 +171,7 @@ POST /api/marketInfoShow/getFjzsInfoData
 ```
 示例（PowerShell）：
 ``` powershell
-Invoke-RestMethod -Uri "https://zjj.sz.gov.cn:8004/api/marketInfoShow/getFjzsInfoData" `
+Invoke-RestMethod -Uri "https://fdc.zjj.sz.gov.cn/api/marketInfoShow/getFjzsInfoData" `
     -Method Post `
     -Body '{"startDate":"2025-09-01","endDate":"2025-09-05","dateType":""}' `
     -ContentType "application/json" | ConvertTo-Json -Depth 10
