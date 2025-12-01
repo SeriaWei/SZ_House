@@ -1726,5 +1726,13 @@
     "esfTotalTs": 4294,
     "ysfAverageArea": 99.32,
     "esfAverageArea": 97.79
+  },
+  "2025-11": {
+    "ysfDealArea": 184419.59,
+    "ysfTotalTs": 1739,
+    "esfDealArea": 449877.02,
+    "esfTotalTs": 4610,
+    "ysfAverageArea": 106.05,
+    "esfAverageArea": 97.59
   }
 }
