@@ -4,6 +4,8 @@ on:
   schedule:
     # 每天北京时间上午5点运行 (UTC时间前一天21点)
     - cron: '0 21 * * *'
+    # 每天北京时间上午12点运行 (UTC时间上午4点)
+    - cron: '0 4 * * *'
   workflow_dispatch: # 允许手动触发
 
 jobs:
