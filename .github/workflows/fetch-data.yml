@@ -38,7 +38,7 @@ jobs:
     - name: Commit and push changes
       run: |
         # 检查是否有文件更改
-        if git status --porcelain; then
+        if [ -n "$(git status --porcelain)" ]; then
           git add .
           git commit -m "Update real estate data [Daily automated update]
           
