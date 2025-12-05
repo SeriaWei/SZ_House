@@ -4,39 +4,39 @@
   "data": {
     "result": null,
     "xmlDateMonth": "2025年11月",
-    "xmlDateDay": "2025年12月05日",
+    "xmlDateDay": "2025年12月5日",
     "dataMj": [
       {
         "name": "南山",
-        "value": 11740.01
+        "value": 753.46
       },
       {
         "name": "福田",
-        "value": 7932.93
+        "value": 123.04
       },
       {
         "name": "龙岗",
-        "value": 47797.44
+        "value": 364.45
       },
       {
         "name": "宝安",
-        "value": 35718.34
+        "value": 1958.99
       },
       {
         "name": "罗湖",
-        "value": 4847.93
+        "value": 120.88
       },
       {
         "name": "盐田",
-        "value": 179
+        "value": 0
       },
       {
         "name": "龙华",
-        "value": 34963.93
+        "value": 617.02
       },
       {
         "name": "光明",
-        "value": 27508.69
+        "value": 931.17
       },
       {
         "name": "大鹏",
@@ -44,45 +44,45 @@
       },
       {
         "name": "坪山",
-        "value": 9819.36
+        "value": 283.98
       },
       {
         "name": "深汕",
-        "value": 665.03
+        "value": 0
       }
     ],
     "dataTs": [
       {
         "name": "南山",
-        "value": 109
+        "value": 6
       },
       {
         "name": "福田",
-        "value": 62
+        "value": 1
       },
       {
         "name": "龙岗",
-        "value": 409
+        "value": 4
       },
       {
         "name": "宝安",
-        "value": 312
+        "value": 18
       },
       {
         "name": "罗湖",
-        "value": 49
+        "value": 1
       },
       {
         "name": "盐田",
-        "value": 2
+        "value": 0
       },
       {
         "name": "龙华",
-        "value": 356
+        "value": 6
       },
       {
         "name": "光明",
-        "value": 280
+        "value": 9
       },
       {
         "name": "大鹏",
@@ -90,14 +90,14 @@
       },
       {
         "name": "坪山",
-        "value": 117
+        "value": 3
       },
       {
         "name": "深汕",
-        "value": 7
+        "value": 0
       }
     ],
-    "dataTotalMj": 181172.66,
-    "dataTotalTs": 1703
+    "dataTotalMj": 5152.99,
+    "dataTotalTs": 48
   }
 }
