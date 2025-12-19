@@ -8,35 +8,35 @@
     "dataMj": [
       {
         "name": "南山",
-        "value": 11740.01
+        "value": 857.07
       },
       {
         "name": "福田",
-        "value": 7932.93
+        "value": 0
       },
       {
         "name": "龙岗",
-        "value": 47797.44
+        "value": 2266.07
       },
       {
         "name": "宝安",
-        "value": 35718.34
+        "value": 1214.5
       },
       {
         "name": "罗湖",
-        "value": 4847.93
+        "value": 0
       },
       {
         "name": "盐田",
-        "value": 179
+        "value": 0
       },
       {
         "name": "龙华",
-        "value": 34963.93
+        "value": 923.46
       },
       {
         "name": "光明",
-        "value": 27508.69
+        "value": 1362.62
       },
       {
         "name": "大鹏",
@@ -44,45 +44,45 @@
       },
       {
         "name": "坪山",
-        "value": 9819.36
+        "value": 517.24
       },
       {
         "name": "深汕",
-        "value": 665.03
+        "value": 0
       }
     ],
     "dataTs": [
       {
         "name": "南山",
-        "value": 109
+        "value": 6
       },
       {
         "name": "福田",
-        "value": 62
+        "value": 0
       },
       {
         "name": "龙岗",
-        "value": 409
+        "value": 23
       },
       {
         "name": "宝安",
-        "value": 312
+        "value": 11
       },
       {
         "name": "罗湖",
-        "value": 49
+        "value": 0
       },
       {
         "name": "盐田",
-        "value": 2
+        "value": 0
       },
       {
         "name": "龙华",
-        "value": 356
+        "value": 10
       },
       {
         "name": "光明",
-        "value": 280
+        "value": 13
       },
       {
         "name": "大鹏",
@@ -90,14 +90,14 @@
       },
       {
         "name": "坪山",
-        "value": 117
+        "value": 6
       },
       {
         "name": "深汕",
-        "value": 7
+        "value": 0
       }
     ],
-    "dataTotalMj": 181172.66,
-    "dataTotalTs": 1703
+    "dataTotalMj": 7140.96,
+    "dataTotalTs": 69
   }
 }
