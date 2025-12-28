@@ -8,35 +8,35 @@
     "dataMj": [
       {
         "name": "南山",
-        "value": 11740.01
+        "value": 1867.9
       },
       {
         "name": "福田",
-        "value": 7932.93
+        "value": 123.89
       },
       {
         "name": "龙岗",
-        "value": 47797.44
+        "value": 925.82
       },
       {
         "name": "宝安",
-        "value": 35718.34
+        "value": 1310.51
       },
       {
         "name": "罗湖",
-        "value": 4847.93
+        "value": 81.5
       },
       {
         "name": "盐田",
-        "value": 179
+        "value": 0
       },
       {
         "name": "龙华",
-        "value": 34963.93
+        "value": 1036.88
       },
       {
         "name": "光明",
-        "value": 27508.69
+        "value": 748.02
       },
       {
         "name": "大鹏",
@@ -44,45 +44,45 @@
       },
       {
         "name": "坪山",
-        "value": 9819.36
+        "value": 750.05
       },
       {
         "name": "深汕",
-        "value": 665.03
+        "value": 0
       }
     ],
     "dataTs": [
       {
         "name": "南山",
-        "value": 109
+        "value": 7
       },
       {
         "name": "福田",
-        "value": 62
+        "value": 1
       },
       {
         "name": "龙岗",
-        "value": 409
+        "value": 10
       },
       {
         "name": "宝安",
-        "value": 312
+        "value": 11
       },
       {
         "name": "罗湖",
-        "value": 49
+        "value": 1
       },
       {
         "name": "盐田",
-        "value": 2
+        "value": 0
       },
       {
         "name": "龙华",
-        "value": 356
+        "value": 11
       },
       {
         "name": "光明",
-        "value": 280
+        "value": 7
       },
       {
         "name": "大鹏",
@@ -90,14 +90,14 @@
       },
       {
         "name": "坪山",
-        "value": 117
+        "value": 9
       },
       {
         "name": "深汕",
-        "value": 7
+        "value": 0
       }
     ],
-    "dataTotalMj": 181172.66,
-    "dataTotalTs": 1703
+    "dataTotalMj": 6844.57,
+    "dataTotalTs": 57
   }
 }
