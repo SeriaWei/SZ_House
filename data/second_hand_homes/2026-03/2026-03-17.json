@@ -3,48 +3,48 @@
   "msg": "成功",
   "data": {
     "result": null,
-    "xmlDateMonth": "2026年2月",
-    "xmlDateDay": "2026年03月17日",
+    "xmlDateMonth": "2026年02月",
+    "xmlDateDay": "2026年3月17日",
     "dataMj": [
       {
         "name": "南山",
-        "value": 49754.89
+        "value": 4874.91
       },
       {
         "name": "福田",
-        "value": 52442.36
+        "value": 3973.7
       },
       {
         "name": "龙岗",
-        "value": 56609.07
+        "value": 5179.27
       },
       {
         "name": "宝安",
-        "value": 36659.82
+        "value": 2778.61
       },
       {
         "name": "罗湖",
-        "value": 39305.81
+        "value": 3985.64
       },
       {
         "name": "盐田",
-        "value": 6401.7
+        "value": 1210.63
       },
       {
         "name": "龙华",
-        "value": 23459.94
+        "value": 3449.57
       },
       {
         "name": "坪山",
-        "value": 6625.91
+        "value": 484.04
       },
       {
         "name": "光明",
-        "value": 6281.8
+        "value": 445.65
       },
       {
         "name": "大鹏",
-        "value": 1003.65
+        "value": 127.33
       },
       {
         "name": "深汕",
@@ -54,50 +54,50 @@
     "dataTs": [
       {
         "name": "南山",
-        "value": 451
+        "value": 46
       },
       {
         "name": "福田",
-        "value": 537
+        "value": 45
       },
       {
         "name": "龙岗",
-        "value": 592
+        "value": 55
       },
       {
         "name": "宝安",
-        "value": 387
+        "value": 31
       },
       {
         "name": "罗湖",
-        "value": 538
+        "value": 56
       },
       {
         "name": "盐田",
-        "value": 64
+        "value": 9
       },
       {
         "name": "龙华",
-        "value": 301
+        "value": 62
       },
       {
         "name": "坪山",
-        "value": 67
+        "value": 8
       },
       {
         "name": "光明",
-        "value": 79
+        "value": 5
       },
       {
         "name": "大鹏",
-        "value": 9
+        "value": 1
       },
       {
         "name": "深汕",
         "value": 0
       }
     ],
-    "dataTotalMj": 278544.95,
-    "dataTotalTs": 3025
+    "dataTotalMj": 26509.35,
+    "dataTotalTs": 318
   }
 }
