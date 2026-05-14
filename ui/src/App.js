@@ -8,9 +8,23 @@ import trendingData from './trendingData.json';
 const allMonths = Object.keys(trendingData).sort();
 // descending order (newest first) for UI selects
 const allMonthsDesc = [...allMonths].reverse();
+
+function getLastYearMonth(month) {
+  const [year, mon] = month.split('-');
+  return `${parseInt(year) - 1}-${mon}`;
+}
+
+function getLastYearData(data, key, trendingDataRef) {
+  return data.map(d => {
+    const lastYearMonth = getLastYearMonth(d.month);
+    return trendingDataRef[lastYearMonth] ? trendingDataRef[lastYearMonth][key] : null;
+  });
+}
+
 const monthlyChartData = allMonths.map(month => ({
   month,
-  ...trendingData[month]
+  ...trendingData[month],
+  lastYearMonth: getLastYearMonth(month),
 }));
 
 function App() {
@@ -26,6 +40,7 @@ function App() {
     ysfAverageArea: false,
     esfAverageArea: false,
   });
+  const [showLastYear, setShowLastYear] = useState(true);
   const [monthlyDateRange, setMonthlyDateRange] = useState({
     start: allMonths[Math.max(0, allMonths.length - 12)],
     end: allMonths[allMonths.length - 1]
@@ -52,6 +67,15 @@ function App() {
     esfAverageArea: { label: '二手平均成交面积', borderColor: '#FFCD56' },
   };
 
+  const lastYearDatasetConfig = {
+    ysfTotalTs: { label: '新房成交套数(去年同期)', borderColor: '#36A2EB', borderDash: [5, 5] },
+    esfTotalTs: { label: '二手成交套数(去年同期)', borderColor: '#FF6384', borderDash: [5, 5] },
+    ysfDealArea: { label: '新房成交面积(去年同期)', borderColor: '#4BC0C0', borderDash: [5, 5] },
+    esfDealArea: { label: '二手成交面积(去年同期)', borderColor: '#FF9F40', borderDash: [5, 5] },
+    ysfAverageArea: { label: '新房平均成交面积(去年同期)', borderColor: '#9966FF', borderDash: [5, 5] },
+    esfAverageArea: { label: '二手平均成交面积(去年同期)', borderColor: '#FFCD56', borderDash: [5, 5] },
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -74,6 +98,10 @@ function App() {
                     {monthlyDatasetConfig[key].label}
                   </label>
                 ))}
+                <label>
+                  <input type="checkbox" checked={showLastYear} onChange={(e) => setShowLastYear(e.target.checked)} />
+                  显示去年同期数据
+                </label>
               </fieldset>
               <fieldset>
                 <legend>选择日期范围</legend>
@@ -82,7 +110,14 @@ function App() {
               </fieldset>
             </div>
             <div className="chart-container">
-              <TrendChart data={filteredMonthlyData} visibleDatasets={monthlyVisibleDatasets} datasetConfig={monthlyDatasetConfig} />
+              <TrendChart 
+                data={filteredMonthlyData} 
+                visibleDatasets={monthlyVisibleDatasets} 
+                datasetConfig={monthlyDatasetConfig}
+                showLastYear={showLastYear}
+                lastYearDatasetConfig={lastYearDatasetConfig}
+                getLastYearData={(data, key) => getLastYearData(data, key, trendingData)}
+              />
             </div>
           </div>
         )}
