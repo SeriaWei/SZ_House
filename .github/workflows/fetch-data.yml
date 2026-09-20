@@ -24,11 +24,19 @@ jobs:
       with:
         node-version: '20'
 
+    - name: Install Chrome and xvfb
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y xvfb google-chrome-stable || sudo apt-get install -y xvfb chromium-browser
+
     - name: Install dependencies
       run: npm ci
 
     - name: Fetch real estate data
-      run: npm start
+      # JSL 反爬要求真实"有头"浏览器（headless 会被 400）。
+      # GitHub Actions Linux runner 没有显示器，用 xvfb 提供虚拟 X 显示，
+      # 让 Chrome 以正常有头模式运行。
+      run: xvfb-run -a --server-args="-screen 0 1600x1000x24" npm start
 
     - name: Configure Git
       run: |

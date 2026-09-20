@@ -1,11 +1,12 @@
 const fetch = require('./httpClient');
+const browserClient = require('./zjjBrowserClient');
 const fs = require('fs');
 const path = require('path');
 
 const DATA_FILE = path.join(__dirname, '..', 'data', 'trending.json');
 
-// Function to make HTTPS POST requests using fetch
-async function fetchApiData(startDate, endDate) {
+// Function to make HTTPS POST requests using fetch (direct calls)
+async function fetchApiDataDirect(startDate, endDate) {
     const url = 'https://fdc.zjj.sz.gov.cn/api/marketInfoShow/getFjzsInfoData';
     
     const postData = JSON.stringify({
@@ -38,6 +39,20 @@ async function fetchApiData(startDate, endDate) {
         }
     } catch (error) {
         throw error;
+    }
+}
+
+// Fetch API data. The site is behind 知道创宇 JSL anti-bot: direct HTTPS calls are
+// rejected (412 challenge / 400) unless the request carries a valid `cuyGLa6e`
+// signature computed at runtime by the JSL script in a real browser. So we try the
+// direct call first, and on failure fall back to fetching from inside a real
+// (headless-able, headed-only) Chrome/Edge session via src/zjjBrowserClient.js.
+async function fetchApiData(startDate, endDate) {
+    try {
+        return await fetchApiDataDirect(startDate, endDate);
+    } catch (error) {
+        console.log(`Direct HTTPS fetch failed (${error.message}), falling back to real-browser fetch...`);
+        return await browserClient.fetchApiData(startDate, endDate);
     }
 }
 
@@ -138,6 +153,10 @@ async function getTrendingData(startYear, startMonth, endYear, endMonth) {
         }
     } catch (error) {
         throw new Error('Failed to fetch or process data: ' + error.message);
+    } finally {
+        // Close the real browser (if it was launched) so we never leave Chrome
+        // windows or temp profiles behind — works for CLI and index.js callers.
+        await browserClient.closeBrowser().catch(() => {});
     }
 }
 
@@ -159,7 +178,10 @@ function main() {
         return;
     }
 
-    getTrendingData(startYear, startMonth, endYear, endMonth);
+    getTrendingData(startYear, startMonth, endYear, endMonth).catch((e) => {
+        console.error(e.message);
+        process.exit(1);
+    });
 }
 
 // Export functions for use in other modules
@@ -168,7 +190,8 @@ module.exports = {
     aggregateMultiMonthData,
     readExistingData,
     writeData,
-    fetchApiData
+    fetchApiData,
+    fetchApiDataDirect
 };
 
 if (require.main === module) {
