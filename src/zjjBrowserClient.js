@@ -104,6 +104,30 @@ async function launchBrowser() {
 // the real page loads and document.title appears.
 async function solveChallenge() {
     await page.goto(SITE_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
+
+    // JSL sets 560fKc21qsOeP via document.cookie after solving the challenge.
+    // Wait for it (on slow CI this can take a few seconds).
+    let hasCookie = false;
+    for (let i = 0; i < 30; i++) {
+        await sleep(1000);
+        try {
+            const cookies = await page.cookies();
+            hasCookie = cookies.some((c) => c.name === '560fKc21qsOeP' && c.value.length > 100);
+            if (hasCookie) break;
+        } catch (e) { /* navigation in progress */ }
+    }
+    console.log(`[jsl] solved cookie after ${hasCookie ? 'ok' : 'timeout'}`);
+
+    // ALWAYS do a fresh navigation: the proven-working flow is challenge page
+    // (412) → cookie appears → second goto serves the real page (200). The JSL
+    // auto-reload does not reliably happen on its own.
+    await page.goto(SITE_URL, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch((e) => {
+        console.log('[jsl] forced reload err:', e.message);
+    });
+    await sleep(6000);
+
+    // Now wait for the real app page (document.title populated) — requires that the
+    // challenge cookie was accepted on reload.
     let loaded = false;
     for (let i = 0; i < 24; i++) {
         await sleep(1500);
@@ -113,17 +137,12 @@ async function solveChallenge() {
         } catch (e) { /* navigation in progress */ }
     }
     if (!loaded) {
-        // JSL sometimes needs a second manual navigation with the new cookie
-        await page.goto(SITE_URL, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch(() => {});
-        await sleep(8000);
-        try {
-            const t = await page.evaluate(() => document.title);
-            if (t && t.length > 0) loaded = true;
-        } catch (e) {}
-    }
-    if (!loaded) {
         throw new Error('JSL challenge: page did not load after retries (fingerprint rejected?)');
     }
+    // Give the app + JSL fetch-hook script a moment to install itself, so our
+    // page.evaluate(fetch) calls get a valid cuyGLa6e signature.
+    await sleep(4000);
+    console.log('[jsl] app page loaded');
 }
 
 async function ensureReady() {

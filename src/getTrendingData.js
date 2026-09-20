@@ -1,59 +1,14 @@
-const fetch = require('./httpClient');
 const browserClient = require('./zjjBrowserClient');
 const fs = require('fs');
 const path = require('path');
 
 const DATA_FILE = path.join(__dirname, '..', 'data', 'trending.json');
 
-// Function to make HTTPS POST requests using fetch (direct calls)
-async function fetchApiDataDirect(startDate, endDate) {
-    const url = 'https://fdc.zjj.sz.gov.cn/api/marketInfoShow/getFjzsInfoData';
-    
-    const postData = JSON.stringify({
-        startDate,
-        endDate,
-        dateType: ''
-    });
-
-    const options = {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0'
-        },
-        body: postData
-    };
-
-    try {
-        const response = await fetch(url, options);
-        
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        
-        const parsedData = await response.json();
-        if (parsedData.status === 1) {
-            return parsedData.data;
-        } else {
-            throw new Error(`API returned an error: ${parsedData.msg}`);
-        }
-    } catch (error) {
-        throw error;
-    }
-}
-
-// Fetch API data. The site is behind 知道创宇 JSL anti-bot: direct HTTPS calls are
-// rejected (412 challenge / 400) unless the request carries a valid `cuyGLa6e`
-// signature computed at runtime by the JSL script in a real browser. So we try the
-// direct call first, and on failure fall back to fetching from inside a real
-// (headless-able, headed-only) Chrome/Edge session via src/zjjBrowserClient.js.
+// Fetch trend data via real Chrome. The site is behind 知道创宇 JSL anti-bot:
+// direct HTTPS calls are 100% blocked (412/400) — the request must carry a valid
+// `cuyGLa6e` signature computed at runtime by the JSL script in a real browser.
 async function fetchApiData(startDate, endDate) {
-    try {
-        return await fetchApiDataDirect(startDate, endDate);
-    } catch (error) {
-        console.log(`Direct HTTPS fetch failed (${error.message}), falling back to real-browser fetch...`);
-        return await browserClient.fetchApiData(startDate, endDate);
-    }
+    return await browserClient.fetchApiData(startDate, endDate);
 }
 
 // Aggregate multi-month daily data into monthly summaries
@@ -190,8 +145,7 @@ module.exports = {
     aggregateMultiMonthData,
     readExistingData,
     writeData,
-    fetchApiData,
-    fetchApiDataDirect
+    fetchApiData
 };
 
 if (require.main === module) {
