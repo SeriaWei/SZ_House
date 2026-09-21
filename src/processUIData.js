@@ -42,10 +42,18 @@ const readFileData = (filePath) => {
     try {
         const content = fs.readFileSync(filePath, 'utf-8');
         const json = JSON.parse(content);
-        return { ts: json.data.dataTs || [], mj: json.data.dataMj || [] };
+        const data = json.data || {};
+        const ts = data.dataTs || [];
+        const mj = data.dataMj || [];
+        return {
+            ts,
+            mj,
+            totalTs: data.dataTotalTs ?? ts.reduce((sum, item) => sum + (item.value || 0), 0),
+            totalMj: data.dataTotalMj ?? Math.round(mj.reduce((sum, item) => sum + (item.value || 0), 0) * 100) / 100
+        };
     } catch (e) {
         // console.error(`Error reading or parsing ${filePath}:`, e);
-        return { ts: [], mj: [] };
+        return { ts: [], mj: [], totalTs: 0, totalMj: 0 };
     }
 };
 
@@ -61,13 +69,18 @@ const processDataByDate = (files, allDates, allDistricts) => {
     for (const date of allDates) {
         // Find the file that matches the date
         const matchingFile = files.find(file => path.basename(file, '.json') === date);
-        let data = { ts: [], mj: [] };
+        let data = { ts: [], mj: [], totalTs: 0, totalMj: 0 };
         
         if (matchingFile) {
             data = readFileData(matchingFile);
         }
         
-        dataByDate[date] = { ts: {}, mj: {} };
+        dataByDate[date] = {
+            ts: {},
+            mj: {},
+            totalTs: data.totalTs,
+            totalMj: data.totalMj
+        };
         for (const item of data.ts) {
             dataByDate[date].ts[item.name] = item.value;
             allDistricts.add(item.name);
@@ -126,7 +139,11 @@ const processDailyData = () => {
 
     const trendingDailyData = {
         dates: allDates,
-        districts: {}
+        districts: {},
+        totals: {
+            new_homes: { ts: [], mj: [] },
+            second_hand_homes: { ts: [], mj: [] }
+        }
     };
 
     const allDistricts = new Set();
@@ -142,6 +159,11 @@ const processDailyData = () => {
     }
 
     for (const date of allDates) {
+        trendingDailyData.totals.new_homes.ts.push(newHomesDataByDate[date].totalTs);
+        trendingDailyData.totals.new_homes.mj.push(newHomesDataByDate[date].totalMj);
+        trendingDailyData.totals.second_hand_homes.ts.push(secondHandHomesDataByDate[date].totalTs);
+        trendingDailyData.totals.second_hand_homes.mj.push(secondHandHomesDataByDate[date].totalMj);
+
         for (const district in trendingDailyData.districts) {
             trendingDailyData.districts[district].new_homes.ts.push(newHomesDataByDate[date]?.ts[district] || 0);
             trendingDailyData.districts[district].new_homes.mj.push(newHomesDataByDate[date]?.mj[district] || 0);

@@ -53,16 +53,14 @@ const DailyTrendChart = () => {
 
     if (merge) {
       const totalData = dateIndices.map(i => {
-        return allDistricts.reduce((sum, district) => {
-          const districtData = trendingDailyData.districts[district];
-          let value = 0;
-          if (homeType === 'total') {
-            value = (districtData.new_homes[metric][i] || 0) + (districtData.second_hand_homes[metric][i] || 0);
-          } else {
-            value = districtData[homeType][metric][i] || 0;
-          }
-          return sum + value;
-        }, 0);
+        if (homeType === 'total') {
+          return ['new_homes', 'second_hand_homes'].reduce(
+            (sum, type) => sum + (trendingDailyData.totals[type][metric][i] || 0),
+            0
+          );
+        }
+
+        return trendingDailyData.totals[homeType][metric][i] || 0;
       });
       datasets = [{
         label: '全市',
