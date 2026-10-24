@@ -1,0 +1,103 @@
+{
+  "status": 1,
+  "msg": "成功",
+  "data": {
+    "result": null,
+    "xmlDateMonth": "2026年09月",
+    "xmlDateDay": "2026年10月24日",
+    "dataMj": [
+      {
+        "name": "南山",
+        "value": 0
+      },
+      {
+        "name": "福田",
+        "value": 626.66
+      },
+      {
+        "name": "龙岗",
+        "value": 1058.97
+      },
+      {
+        "name": "宝安",
+        "value": 0
+      },
+      {
+        "name": "罗湖",
+        "value": 551.22
+      },
+      {
+        "name": "盐田",
+        "value": 144.98
+      },
+      {
+        "name": "龙华",
+        "value": 663.2
+      },
+      {
+        "name": "光明",
+        "value": 1089.67
+      },
+      {
+        "name": "大鹏",
+        "value": 0
+      },
+      {
+        "name": "坪山",
+        "value": 104.22
+      },
+      {
+        "name": "深汕",
+        "value": 0
+      }
+    ],
+    "dataTs": [
+      {
+        "name": "南山",
+        "value": 0
+      },
+      {
+        "name": "福田",
+        "value": 4
+      },
+      {
+        "name": "龙岗",
+        "value": 9
+      },
+      {
+        "name": "宝安",
+        "value": 0
+      },
+      {
+        "name": "罗湖",
+        "value": 5
+      },
+      {
+        "name": "盐田",
+        "value": 1
+      },
+      {
+        "name": "龙华",
+        "value": 7
+      },
+      {
+        "name": "光明",
+        "value": 11
+      },
+      {
+        "name": "大鹏",
+        "value": 0
+      },
+      {
+        "name": "坪山",
+        "value": 1
+      },
+      {
+        "name": "深汕",
+        "value": 0
+      }
+    ],
+    "dataTotalMj": 4238.92,
+    "dataTotalTs": 38
+  }
+}
